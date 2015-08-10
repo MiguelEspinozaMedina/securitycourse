@@ -1,10 +1,4 @@
 #!/usr/bin/python
-
-import os
-
-for x in range(200, 254):
-	p = os.popen('ping -c 1 192.168.43.x | grep "bytes from" | cut -d "" -f 4| cut -d ":" -f 1')
-	s = p.readline()
-	p.close()
-	print s
-
+for ping in range(200,254):
+	ip="192.168.43."+str(ping)
+	os.system("ping -c 3 %s" % ip)
