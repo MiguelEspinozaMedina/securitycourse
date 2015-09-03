@@ -1,0 +1,996 @@
+
+Starting Nmap 6.47 ( http://nmap.org ) at 2015-09-02 20:28 EDT
+Initiating ARP Ping Scan at 20:28
+Scanning 254 hosts [1 port/host]
+Completed ARP Ping Scan at 20:28, 1.71s elapsed (254 total hosts)
+Initiating Parallel DNS resolution of 254 hosts. at 20:28
+Completed Parallel DNS resolution of 254 hosts. at 20:28, 0.07s elapsed
+Nmap scan report for 192.168.43.1 [host down]
+Nmap scan report for 192.168.43.2 [host down]
+Nmap scan report for 192.168.43.3 [host down]
+Nmap scan report for 192.168.43.4 [host down]
+Nmap scan report for 192.168.43.5 [host down]
+Nmap scan report for 192.168.43.6 [host down]
+Nmap scan report for 192.168.43.7 [host down]
+Nmap scan report for 192.168.43.8 [host down]
+Nmap scan report for 192.168.43.9 [host down]
+Nmap scan report for 192.168.43.10
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:6C:AA (VMware)
+Nmap scan report for 192.168.43.11
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:5D:96 (VMware)
+Nmap scan report for 192.168.43.12
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:6D:39 (VMware)
+Nmap scan report for 192.168.43.13 [host down]
+Nmap scan report for 192.168.43.14
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:64:8B (VMware)
+Nmap scan report for 192.168.43.15 [host down]
+Nmap scan report for 192.168.43.16 [host down]
+Nmap scan report for 192.168.43.17 [host down]
+Nmap scan report for 192.168.43.18 [host down]
+Nmap scan report for 192.168.43.19 [host down]
+Nmap scan report for 192.168.43.20 [host down]
+Nmap scan report for 192.168.43.21 [host down]
+Nmap scan report for 192.168.43.22
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:49:23 (VMware)
+Nmap scan report for 192.168.43.23 [host down]
+Nmap scan report for 192.168.43.24 [host down]
+Nmap scan report for 192.168.43.25 [host down]
+Nmap scan report for 192.168.43.26 [host down]
+Nmap scan report for 192.168.43.27 [host down]
+Nmap scan report for 192.168.43.28
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:3B:61 (VMware)
+Nmap scan report for 192.168.43.29 [host down]
+Nmap scan report for 192.168.43.30 [host down]
+Nmap scan report for 192.168.43.31 [host down]
+Nmap scan report for 192.168.43.32 [host down]
+Nmap scan report for 192.168.43.33 [host down]
+Nmap scan report for 192.168.43.34
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:3D:3A (VMware)
+Nmap scan report for 192.168.43.35 [host down]
+Nmap scan report for 192.168.43.36 [host down]
+Nmap scan report for 192.168.43.37 [host down]
+Nmap scan report for 192.168.43.38 [host down]
+Nmap scan report for 192.168.43.39 [host down]
+Nmap scan report for 192.168.43.40
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:3F:5F (VMware)
+Nmap scan report for 192.168.43.41 [host down]
+Nmap scan report for 192.168.43.42 [host down]
+Nmap scan report for 192.168.43.43 [host down]
+Nmap scan report for 192.168.43.44
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:53:23 (VMware)
+Nmap scan report for 192.168.43.45
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:54:28 (VMware)
+Nmap scan report for 192.168.43.46 [host down]
+Nmap scan report for 192.168.43.47 [host down]
+Nmap scan report for 192.168.43.48 [host down]
+Nmap scan report for 192.168.43.49 [host down]
+Nmap scan report for 192.168.43.50 [host down]
+Nmap scan report for 192.168.43.51 [host down]
+Nmap scan report for 192.168.43.52 [host down]
+Nmap scan report for 192.168.43.53 [host down]
+Nmap scan report for 192.168.43.54 [host down]
+Nmap scan report for 192.168.43.55 [host down]
+Nmap scan report for 192.168.43.56 [host down]
+Nmap scan report for 192.168.43.57
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:56:B1 (VMware)
+Nmap scan report for 192.168.43.58 [host down]
+Nmap scan report for 192.168.43.59
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:7E:AB (VMware)
+Nmap scan report for 192.168.43.60 [host down]
+Nmap scan report for 192.168.43.61 [host down]
+Nmap scan report for 192.168.43.62 [host down]
+Nmap scan report for 192.168.43.63 [host down]
+Nmap scan report for 192.168.43.64 [host down]
+Nmap scan report for 192.168.43.65 [host down]
+Nmap scan report for 192.168.43.66 [host down]
+Nmap scan report for 192.168.43.67
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:08:F2 (VMware)
+Nmap scan report for 192.168.43.68 [host down]
+Nmap scan report for 192.168.43.69 [host down]
+Nmap scan report for 192.168.43.70 [host down]
+Nmap scan report for 192.168.43.71 [host down]
+Nmap scan report for 192.168.43.72 [host down]
+Nmap scan report for 192.168.43.73 [host down]
+Nmap scan report for 192.168.43.74 [host down]
+Nmap scan report for 192.168.43.75 [host down]
+Nmap scan report for 192.168.43.76 [host down]
+Nmap scan report for 192.168.43.77 [host down]
+Nmap scan report for 192.168.43.78
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:23:B0 (VMware)
+Nmap scan report for 192.168.43.79 [host down]
+Nmap scan report for 192.168.43.80 [host down]
+Nmap scan report for 192.168.43.81
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:1E:AD (VMware)
+Nmap scan report for 192.168.43.82
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:46:49 (VMware)
+Nmap scan report for 192.168.43.83
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:30:0E (VMware)
+Nmap scan report for 192.168.43.84 [host down]
+Nmap scan report for 192.168.43.85 [host down]
+Nmap scan report for 192.168.43.86 [host down]
+Nmap scan report for 192.168.43.87
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:0C:53 (VMware)
+Nmap scan report for 192.168.43.88
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:2D:C7 (VMware)
+Nmap scan report for 192.168.43.89 [host down]
+Nmap scan report for 192.168.43.90 [host down]
+Nmap scan report for 192.168.43.91 [host down]
+Nmap scan report for 192.168.43.92 [host down]
+Nmap scan report for 192.168.43.93
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:5B:79 (VMware)
+Nmap scan report for 192.168.43.94 [host down]
+Nmap scan report for 192.168.43.95 [host down]
+Nmap scan report for 192.168.43.96
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:46:A6 (VMware)
+Nmap scan report for 192.168.43.97
+Host is up (0.066s latency).
+MAC Address: 00:50:56:AF:74:8D (VMware)
+Nmap scan report for 192.168.43.98 [host down]
+Nmap scan report for 192.168.43.99 [host down]
+Nmap scan report for 192.168.43.100 [host down]
+Nmap scan report for 192.168.43.101 [host down]
+Nmap scan report for 192.168.43.102 [host down]
+Nmap scan report for 192.168.43.103 [host down]
+Nmap scan report for 192.168.43.104 [host down]
+Nmap scan report for 192.168.43.105 [host down]
+Nmap scan report for 192.168.43.106 [host down]
+Nmap scan report for 192.168.43.107
+Host is up (0.095s latency).
+MAC Address: 00:50:56:AF:4F:16 (VMware)
+Nmap scan report for 192.168.43.108 [host down]
+Nmap scan report for 192.168.43.109 [host down]
+Nmap scan report for 192.168.43.110 [host down]
+Nmap scan report for 192.168.43.111 [host down]
+Nmap scan report for 192.168.43.112 [host down]
+Nmap scan report for 192.168.43.113
+Host is up (0.095s latency).
+MAC Address: 00:50:56:AF:30:39 (VMware)
+Nmap scan report for 192.168.43.114
+Host is up (0.095s latency).
+MAC Address: 00:50:56:AF:4D:93 (VMware)
+Nmap scan report for 192.168.43.115 [host down]
+Nmap scan report for 192.168.43.116
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:31:22 (VMware)
+Nmap scan report for 192.168.43.117 [host down]
+Nmap scan report for 192.168.43.118 [host down]
+Nmap scan report for 192.168.43.119 [host down]
+Nmap scan report for 192.168.43.120 [host down]
+Nmap scan report for 192.168.43.121 [host down]
+Nmap scan report for 192.168.43.122 [host down]
+Nmap scan report for 192.168.43.123 [host down]
+Nmap scan report for 192.168.43.124 [host down]
+Nmap scan report for 192.168.43.125 [host down]
+Nmap scan report for 192.168.43.126
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:2F:61 (VMware)
+Nmap scan report for 192.168.43.127
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:17:D2 (VMware)
+Nmap scan report for 192.168.43.128
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:31:49 (VMware)
+Nmap scan report for 192.168.43.129 [host down]
+Nmap scan report for 192.168.43.130 [host down]
+Nmap scan report for 192.168.43.131
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:5B:6E (VMware)
+Nmap scan report for 192.168.43.132
+Host is up (0.090s latency).
+MAC Address: 00:50:56:AF:6D:42 (VMware)
+Nmap scan report for 192.168.43.133 [host down]
+Nmap scan report for 192.168.43.134 [host down]
+Nmap scan report for 192.168.43.135 [host down]
+Nmap scan report for 192.168.43.136 [host down]
+Nmap scan report for 192.168.43.137 [host down]
+Nmap scan report for 192.168.43.138 [host down]
+Nmap scan report for 192.168.43.139 [host down]
+Nmap scan report for 192.168.43.140 [host down]
+Nmap scan report for 192.168.43.141
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:7C:10 (VMware)
+Nmap scan report for 192.168.43.142 [host down]
+Nmap scan report for 192.168.43.143
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:21:72 (VMware)
+Nmap scan report for 192.168.43.144 [host down]
+Nmap scan report for 192.168.43.145 [host down]
+Nmap scan report for 192.168.43.146 [host down]
+Nmap scan report for 192.168.43.147 [host down]
+Nmap scan report for 192.168.43.148 [host down]
+Nmap scan report for 192.168.43.149 [host down]
+Nmap scan report for 192.168.43.150 [host down]
+Nmap scan report for 192.168.43.151 [host down]
+Nmap scan report for 192.168.43.152 [host down]
+Nmap scan report for 192.168.43.153 [host down]
+Nmap scan report for 192.168.43.154
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:5B:21 (VMware)
+Nmap scan report for 192.168.43.155 [host down]
+Nmap scan report for 192.168.43.156 [host down]
+Nmap scan report for 192.168.43.157
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:7A:3D (VMware)
+Nmap scan report for 192.168.43.158 [host down]
+Nmap scan report for 192.168.43.159
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:62:FF (VMware)
+Nmap scan report for 192.168.43.160 [host down]
+Nmap scan report for 192.168.43.161 [host down]
+Nmap scan report for 192.168.43.162
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:2F:F5 (VMware)
+Nmap scan report for 192.168.43.163
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:21:B5 (VMware)
+Nmap scan report for 192.168.43.164 [host down]
+Nmap scan report for 192.168.43.165 [host down]
+Nmap scan report for 192.168.43.166 [host down]
+Nmap scan report for 192.168.43.167
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:4C:FC (VMware)
+Nmap scan report for 192.168.43.168 [host down]
+Nmap scan report for 192.168.43.169 [host down]
+Nmap scan report for 192.168.43.170 [host down]
+Nmap scan report for 192.168.43.171 [host down]
+Nmap scan report for 192.168.43.172 [host down]
+Nmap scan report for 192.168.43.173 [host down]
+Nmap scan report for 192.168.43.174 [host down]
+Nmap scan report for 192.168.43.175 [host down]
+Nmap scan report for 192.168.43.176 [host down]
+Nmap scan report for 192.168.43.177 [host down]
+Nmap scan report for 192.168.43.178 [host down]
+Nmap scan report for 192.168.43.179 [host down]
+Nmap scan report for 192.168.43.180 [host down]
+Nmap scan report for 192.168.43.181 [host down]
+Nmap scan report for 192.168.43.182 [host down]
+Nmap scan report for 192.168.43.183 [host down]
+Nmap scan report for 192.168.43.184 [host down]
+Nmap scan report for 192.168.43.185 [host down]
+Nmap scan report for 192.168.43.186 [host down]
+Nmap scan report for 192.168.43.187 [host down]
+Nmap scan report for 192.168.43.188 [host down]
+Nmap scan report for 192.168.43.189 [host down]
+Nmap scan report for 192.168.43.190 [host down]
+Nmap scan report for 192.168.43.191 [host down]
+Nmap scan report for 192.168.43.192 [host down]
+Nmap scan report for 192.168.43.193 [host down]
+Nmap scan report for 192.168.43.194 [host down]
+Nmap scan report for 192.168.43.195 [host down]
+Nmap scan report for 192.168.43.196 [host down]
+Nmap scan report for 192.168.43.197 [host down]
+Nmap scan report for 192.168.43.198 [host down]
+Nmap scan report for 192.168.43.199 [host down]
+Nmap scan report for 192.168.43.200 [host down]
+Nmap scan report for 192.168.43.201
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:25:EB (VMware)
+Nmap scan report for 192.168.43.202
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:22:47 (VMware)
+Nmap scan report for 192.168.43.203
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:35:E8 (VMware)
+Nmap scan report for 192.168.43.204
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:13:05 (VMware)
+Nmap scan report for 192.168.43.205
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:28:1A (VMware)
+Nmap scan report for 192.168.43.206
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:70:5B (VMware)
+Nmap scan report for 192.168.43.207
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:4C:75 (VMware)
+Nmap scan report for 192.168.43.208
+Host is up (0.15s latency).
+MAC Address: 00:50:56:AF:54:75 (VMware)
+Nmap scan report for 192.168.43.209
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:43:4B (VMware)
+Nmap scan report for 192.168.43.210
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:10:A4 (VMware)
+Nmap scan report for 192.168.43.211 [host down]
+Nmap scan report for 192.168.43.212 [host down]
+Nmap scan report for 192.168.43.213 [host down]
+Nmap scan report for 192.168.43.214
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:36:A8 (VMware)
+Nmap scan report for 192.168.43.215
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:68:E8 (VMware)
+Nmap scan report for 192.168.43.216
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:0D:71 (VMware)
+Nmap scan report for 192.168.43.217 [host down]
+Nmap scan report for 192.168.43.218
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:01:B8 (VMware)
+Nmap scan report for 192.168.43.219
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:67:BE (VMware)
+Nmap scan report for 192.168.43.220
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:0E:3D (VMware)
+Nmap scan report for 192.168.43.221
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:41:22 (VMware)
+Nmap scan report for 192.168.43.222
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:6B:F6 (VMware)
+Nmap scan report for 192.168.43.223
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:5C:EA (VMware)
+Nmap scan report for 192.168.43.224
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:45:9F (VMware)
+Nmap scan report for 192.168.43.225
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:21:59 (VMware)
+Nmap scan report for 192.168.43.226
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:19:BE (VMware)
+Nmap scan report for 192.168.43.227
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:46:7E (VMware)
+Nmap scan report for 192.168.43.228 [host down]
+Nmap scan report for 192.168.43.229
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:00:25 (VMware)
+Nmap scan report for 192.168.43.230
+Host is up (0.096s latency).
+MAC Address: 00:50:56:AF:34:6A (VMware)
+Nmap scan report for 192.168.43.231
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:4D:4A (VMware)
+Nmap scan report for 192.168.43.232 [host down]
+Nmap scan report for 192.168.43.233 [host down]
+Nmap scan report for 192.168.43.234
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:4B:2A (VMware)
+Nmap scan report for 192.168.43.235
+Host is up (0.11s latency).
+MAC Address: 00:50:56:AF:75:18 (VMware)
+Nmap scan report for 192.168.43.236
+Host is up (0.093s latency).
+MAC Address: 00:50:56:AF:71:9B (VMware)
+Nmap scan report for 192.168.43.237
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:11:51 (VMware)
+Nmap scan report for 192.168.43.238
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:62:7C (VMware)
+Nmap scan report for 192.168.43.239
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:60:4D (VMware)
+Nmap scan report for 192.168.43.240 [host down]
+Nmap scan report for 192.168.43.241
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:56:B4 (VMware)
+Nmap scan report for 192.168.43.242
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:66:B7 (VMware)
+Nmap scan report for 192.168.43.243 [host down]
+Nmap scan report for 192.168.43.244
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:20:E6 (VMware)
+Nmap scan report for 192.168.43.245
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:38:2C (VMware)
+Nmap scan report for 192.168.43.246 [host down]
+Nmap scan report for 192.168.43.247
+Host is up (0.091s latency).
+MAC Address: 00:50:56:AF:44:41 (VMware)
+Nmap scan report for 192.168.43.248 [host down]
+Nmap scan report for 192.168.43.249
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:16:9D (VMware)
+Nmap scan report for 192.168.43.250
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:57:03 (VMware)
+Nmap scan report for 192.168.43.251
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:3C:1E (VMware)
+Nmap scan report for 192.168.43.252
+Host is up (0.092s latency).
+MAC Address: 00:50:56:AF:24:6C (VMware)
+Nmap scan report for 192.168.43.253 [host down]
+Nmap scan report for 192.168.43.254 [host down]
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 254 IP addresses (80 hosts up) scanned in 1.80 seconds
+           Raw packets sent: 430 (12.040KB) | Rcvd: 82 (2.296KB)
+
+Starting Nmap 6.47 ( http://nmap.org ) at 2015-09-02 20:30 EDT
+Initiating ARP Ping Scan at 20:30
+Scanning 254 hosts [1 port/host]
+Completed ARP Ping Scan at 20:30, 1.64s elapsed (254 total hosts)
+Initiating Parallel DNS resolution of 254 hosts. at 20:30
+Completed Parallel DNS resolution of 254 hosts. at 20:30, 0.07s elapsed
+Nmap scan report for 192.168.43.1 [host down]
+Nmap scan report for 192.168.43.2 [host down]
+Nmap scan report for 192.168.43.3 [host down]
+Nmap scan report for 192.168.43.4 [host down]
+Nmap scan report for 192.168.43.5 [host down]
+Nmap scan report for 192.168.43.6 [host down]
+Nmap scan report for 192.168.43.7 [host down]
+Nmap scan report for 192.168.43.8 [host down]
+Nmap scan report for 192.168.43.9 [host down]
+Nmap scan report for 192.168.43.13 [host down]
+Nmap scan report for 192.168.43.15 [host down]
+Nmap scan report for 192.168.43.16 [host down]
+Nmap scan report for 192.168.43.17 [host down]
+Nmap scan report for 192.168.43.18 [host down]
+Nmap scan report for 192.168.43.19 [host down]
+Nmap scan report for 192.168.43.20 [host down]
+Nmap scan report for 192.168.43.21 [host down]
+Nmap scan report for 192.168.43.23 [host down]
+Nmap scan report for 192.168.43.24 [host down]
+Nmap scan report for 192.168.43.25 [host down]
+Nmap scan report for 192.168.43.26 [host down]
+Nmap scan report for 192.168.43.27 [host down]
+Nmap scan report for 192.168.43.29 [host down]
+Nmap scan report for 192.168.43.30 [host down]
+Nmap scan report for 192.168.43.31 [host down]
+Nmap scan report for 192.168.43.32 [host down]
+Nmap scan report for 192.168.43.33 [host down]
+Nmap scan report for 192.168.43.35 [host down]
+Nmap scan report for 192.168.43.36 [host down]
+Nmap scan report for 192.168.43.37 [host down]
+Nmap scan report for 192.168.43.38 [host down]
+Nmap scan report for 192.168.43.39 [host down]
+Nmap scan report for 192.168.43.41 [host down]
+Nmap scan report for 192.168.43.42 [host down]
+Nmap scan report for 192.168.43.43 [host down]
+Nmap scan report for 192.168.43.46 [host down]
+Nmap scan report for 192.168.43.47 [host down]
+Nmap scan report for 192.168.43.48 [host down]
+Nmap scan report for 192.168.43.49 [host down]
+Nmap scan report for 192.168.43.50 [host down]
+Nmap scan report for 192.168.43.51 [host down]
+Nmap scan report for 192.168.43.52 [host down]
+Nmap scan report for 192.168.43.53 [host down]
+Nmap scan report for 192.168.43.54 [host down]
+Nmap scan report for 192.168.43.55 [host down]
+Nmap scan report for 192.168.43.56 [host down]
+Nmap scan report for 192.168.43.58 [host down]
+Nmap scan report for 192.168.43.60 [host down]
+Nmap scan report for 192.168.43.61 [host down]
+Nmap scan report for 192.168.43.62 [host down]
+Nmap scan report for 192.168.43.63 [host down]
+Nmap scan report for 192.168.43.64 [host down]
+Nmap scan report for 192.168.43.65 [host down]
+Nmap scan report for 192.168.43.66 [host down]
+Nmap scan report for 192.168.43.68 [host down]
+Nmap scan report for 192.168.43.69 [host down]
+Nmap scan report for 192.168.43.70 [host down]
+Nmap scan report for 192.168.43.71 [host down]
+Nmap scan report for 192.168.43.72 [host down]
+Nmap scan report for 192.168.43.73 [host down]
+Nmap scan report for 192.168.43.74 [host down]
+Nmap scan report for 192.168.43.75 [host down]
+Nmap scan report for 192.168.43.76 [host down]
+Nmap scan report for 192.168.43.77 [host down]
+Nmap scan report for 192.168.43.79 [host down]
+Nmap scan report for 192.168.43.80 [host down]
+Nmap scan report for 192.168.43.84 [host down]
+Nmap scan report for 192.168.43.85 [host down]
+Nmap scan report for 192.168.43.86 [host down]
+Nmap scan report for 192.168.43.89 [host down]
+Nmap scan report for 192.168.43.90 [host down]
+Nmap scan report for 192.168.43.91 [host down]
+Nmap scan report for 192.168.43.92 [host down]
+Nmap scan report for 192.168.43.94 [host down]
+Nmap scan report for 192.168.43.95 [host down]
+Nmap scan report for 192.168.43.98 [host down]
+Nmap scan report for 192.168.43.99 [host down]
+Nmap scan report for 192.168.43.100 [host down]
+Nmap scan report for 192.168.43.101 [host down]
+Nmap scan report for 192.168.43.102 [host down]
+Nmap scan report for 192.168.43.103 [host down]
+Nmap scan report for 192.168.43.104 [host down]
+Nmap scan report for 192.168.43.105 [host down]
+Nmap scan report for 192.168.43.106 [host down]
+Nmap scan report for 192.168.43.108 [host down]
+Nmap scan report for 192.168.43.109 [host down]
+Nmap scan report for 192.168.43.110 [host down]
+Nmap scan report for 192.168.43.111 [host down]
+Nmap scan report for 192.168.43.112 [host down]
+Nmap scan report for 192.168.43.115 [host down]
+Nmap scan report for 192.168.43.117 [host down]
+Nmap scan report for 192.168.43.118 [host down]
+Nmap scan report for 192.168.43.119 [host down]
+Nmap scan report for 192.168.43.120 [host down]
+Nmap scan report for 192.168.43.121 [host down]
+Nmap scan report for 192.168.43.122 [host down]
+Nmap scan report for 192.168.43.123 [host down]
+Nmap scan report for 192.168.43.124 [host down]
+Nmap scan report for 192.168.43.125 [host down]
+Nmap scan report for 192.168.43.129 [host down]
+Nmap scan report for 192.168.43.130 [host down]
+Nmap scan report for 192.168.43.133 [host down]
+Nmap scan report for 192.168.43.134 [host down]
+Nmap scan report for 192.168.43.135 [host down]
+Nmap scan report for 192.168.43.136 [host down]
+Nmap scan report for 192.168.43.137 [host down]
+Nmap scan report for 192.168.43.138 [host down]
+Nmap scan report for 192.168.43.139 [host down]
+Nmap scan report for 192.168.43.140 [host down]
+Nmap scan report for 192.168.43.142 [host down]
+Nmap scan report for 192.168.43.144 [host down]
+Nmap scan report for 192.168.43.145 [host down]
+Nmap scan report for 192.168.43.146 [host down]
+Nmap scan report for 192.168.43.147 [host down]
+Nmap scan report for 192.168.43.148 [host down]
+Nmap scan report for 192.168.43.149 [host down]
+Nmap scan report for 192.168.43.150 [host down]
+Nmap scan report for 192.168.43.151 [host down]
+Nmap scan report for 192.168.43.152 [host down]
+Nmap scan report for 192.168.43.153 [host down]
+Nmap scan report for 192.168.43.155 [host down]
+Nmap scan report for 192.168.43.156 [host down]
+Nmap scan report for 192.168.43.158 [host down]
+Nmap scan report for 192.168.43.160 [host down]
+Nmap scan report for 192.168.43.161 [host down]
+Nmap scan report for 192.168.43.164 [host down]
+Nmap scan report for 192.168.43.165 [host down]
+Nmap scan report for 192.168.43.166 [host down]
+Nmap scan report for 192.168.43.168 [host down]
+Nmap scan report for 192.168.43.169 [host down]
+Nmap scan report for 192.168.43.170 [host down]
+Nmap scan report for 192.168.43.171 [host down]
+Nmap scan report for 192.168.43.172 [host down]
+Nmap scan report for 192.168.43.173 [host down]
+Nmap scan report for 192.168.43.174 [host down]
+Nmap scan report for 192.168.43.175 [host down]
+Nmap scan report for 192.168.43.176 [host down]
+Nmap scan report for 192.168.43.177 [host down]
+Nmap scan report for 192.168.43.178 [host down]
+Nmap scan report for 192.168.43.179 [host down]
+Nmap scan report for 192.168.43.180 [host down]
+Nmap scan report for 192.168.43.181 [host down]
+Nmap scan report for 192.168.43.182 [host down]
+Nmap scan report for 192.168.43.183 [host down]
+Nmap scan report for 192.168.43.184 [host down]
+Nmap scan report for 192.168.43.185 [host down]
+Nmap scan report for 192.168.43.186 [host down]
+Nmap scan report for 192.168.43.187 [host down]
+Nmap scan report for 192.168.43.188 [host down]
+Nmap scan report for 192.168.43.189 [host down]
+Nmap scan report for 192.168.43.190 [host down]
+Nmap scan report for 192.168.43.191 [host down]
+Nmap scan report for 192.168.43.192 [host down]
+Nmap scan report for 192.168.43.193 [host down]
+Nmap scan report for 192.168.43.194 [host down]
+Nmap scan report for 192.168.43.195 [host down]
+Nmap scan report for 192.168.43.196 [host down]
+Nmap scan report for 192.168.43.197 [host down]
+Nmap scan report for 192.168.43.198 [host down]
+Nmap scan report for 192.168.43.199 [host down]
+Nmap scan report for 192.168.43.200 [host down]
+Nmap scan report for 192.168.43.211 [host down]
+Nmap scan report for 192.168.43.212 [host down]
+Nmap scan report for 192.168.43.213 [host down]
+Nmap scan report for 192.168.43.217 [host down]
+Nmap scan report for 192.168.43.228 [host down]
+Initiating SYN Stealth Scan at 20:30
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 8080/tcp on 192.168.43.205
+Discovered open port 139/tcp on 192.168.43.34
+Discovered open port 139/tcp on 192.168.43.157
+Discovered open port 8080/tcp on 192.168.43.206
+Discovered open port 8080/tcp on 192.168.43.209
+Discovered open port 139/tcp on 192.168.43.78
+Discovered open port 139/tcp on 192.168.43.132
+Discovered open port 139/tcp on 192.168.43.205
+Discovered open port 21/tcp on 192.168.43.205
+Discovered open port 139/tcp on 192.168.43.215
+Discovered open port 139/tcp on 192.168.43.222
+Discovered open port 139/tcp on 192.168.43.224
+Discovered open port 139/tcp on 192.168.43.227
+Discovered open port 139/tcp on 192.168.43.11
+Discovered open port 139/tcp on 192.168.43.107
+Discovered open port 445/tcp on 192.168.43.157
+Discovered open port 139/tcp on 192.168.43.201
+Discovered open port 139/tcp on 192.168.43.206
+Discovered open port 21/tcp on 192.168.43.215
+Discovered open port 21/tcp on 192.168.43.222
+Discovered open port 21/tcp on 192.168.43.227
+Discovered open port 445/tcp on 192.168.43.34
+Discovered open port 445/tcp on 192.168.43.78
+Discovered open port 445/tcp on 192.168.43.132
+Discovered open port 445/tcp on 192.168.43.205
+Discovered open port 21/tcp on 192.168.43.206
+Discovered open port 21/tcp on 192.168.43.216
+Discovered open port 993/tcp on 192.168.43.224
+Discovered open port 139/tcp on 192.168.43.229
+Discovered open port 445/tcp on 192.168.43.227
+Discovered open port 445/tcp on 192.168.43.11
+Discovered open port 445/tcp on 192.168.43.107
+Discovered open port 445/tcp on 192.168.43.201
+Discovered open port 443/tcp on 192.168.43.205
+Discovered open port 445/tcp on 192.168.43.224
+Discovered open port 25/tcp on 192.168.43.132
+Discovered open port 25/tcp on 192.168.43.157
+Discovered open port 443/tcp on 192.168.43.222
+Discovered open port 443/tcp on 192.168.43.227
+Discovered open port 445/tcp on 192.168.43.206
+Discovered open port 25/tcp on 192.168.43.222
+Discovered open port 25/tcp on 192.168.43.227
+Discovered open port 5900/tcp on 192.168.43.227
+Discovered open port 445/tcp on 192.168.43.229
+Discovered open port 25/tcp on 192.168.43.34
+Discovered open port 22/tcp on 192.168.43.209
+Discovered open port 25/tcp on 192.168.43.215
+Discovered open port 22/tcp on 192.168.43.222
+Discovered open port 22/tcp on 192.168.43.215
+Discovered open port 111/tcp on 192.168.43.222
+Discovered open port 199/tcp on 192.168.43.222
+Discovered open port 25/tcp on 192.168.43.229
+Discovered open port 139/tcp on 192.168.43.128
+Discovered open port 139/tcp on 192.168.43.208
+Discovered open port 80/tcp on 192.168.43.222
+Discovered open port 21/tcp on 192.168.43.208
+Discovered open port 111/tcp on 192.168.43.209
+Discovered open port 3306/tcp on 192.168.43.215
+Discovered open port 139/tcp on 192.168.43.223
+Discovered open port 139/tcp on 192.168.43.230
+Discovered open port 110/tcp on 192.168.43.132
+Discovered open port 21/tcp on 192.168.43.226
+Discovered open port 139/tcp on 192.168.43.218
+Discovered open port 25/tcp on 192.168.43.22
+Discovered open port 25/tcp on 192.168.43.44
+Discovered open port 139/tcp on 192.168.43.167
+Discovered open port 22/tcp on 192.168.43.224
+Discovered open port 445/tcp on 192.168.43.128
+Discovered open port 80/tcp on 192.168.43.209
+Discovered open port 139/tcp on 192.168.43.220
+Discovered open port 445/tcp on 192.168.43.230
+Discovered open port 443/tcp on 192.168.43.206
+Discovered open port 111/tcp on 192.168.43.215
+Discovered open port 445/tcp on 192.168.43.223
+Discovered open port 199/tcp on 192.168.43.215
+Discovered open port 135/tcp on 192.168.43.11
+Discovered open port 135/tcp on 192.168.43.107
+Discovered open port 445/tcp on 192.168.43.167
+Discovered open port 21/tcp on 192.168.43.220
+Discovered open port 139/tcp on 192.168.43.162
+Discovered open port 22/tcp on 192.168.43.216
+Discovered open port 80/tcp on 192.168.43.227
+Discovered open port 21/tcp on 192.168.43.204
+Discovered open port 135/tcp on 192.168.43.78
+Discovered open port 25/tcp on 192.168.43.143
+Discovered open port 443/tcp on 192.168.43.57
+Discovered open port 80/tcp on 192.168.43.205
+Discovered open port 445/tcp on 192.168.43.208
+Discovered open port 22/tcp on 192.168.43.214
+Discovered open port 445/tcp on 192.168.43.218
+Discovered open port 110/tcp on 192.168.43.34
+Discovered open port 135/tcp on 192.168.43.157
+Discovered open port 443/tcp on 192.168.43.223
+Discovered open port 135/tcp on 192.168.43.132
+Discovered open port 3306/tcp on 192.168.43.216
+Discovered open port 445/tcp on 192.168.43.220
+Discovered open port 443/tcp on 192.168.43.208
+Discovered open port 3389/tcp on 192.168.43.11
+Discovered open port 135/tcp on 192.168.43.201
+Discovered open port 443/tcp on 192.168.43.167
+Discovered open port 21/tcp on 192.168.43.225
+Discovered open port 139/tcp on 192.168.43.97
+Discovered open port 25/tcp on 192.168.43.45
+Discovered open port 135/tcp on 192.168.43.34
+Discovered open port 135/tcp on 192.168.43.205
+Discovered open port 80/tcp on 192.168.43.224
+Discovered open port 3389/tcp on 192.168.43.78
+Discovered open port 3389/tcp on 192.168.43.132
+Discovered open port 21/tcp on 192.168.43.97
+Discovered open port 3306/tcp on 192.168.43.223
+Discovered open port 110/tcp on 192.168.43.22
+Discovered open port 445/tcp on 192.168.43.162
+Discovered open port 21/tcp on 192.168.43.203
+Discovered open port 3389/tcp on 192.168.43.157
+Discovered open port 443/tcp on 192.168.43.116
+Discovered open port 22/tcp on 192.168.43.208
+Discovered open port 445/tcp on 192.168.43.97
+Discovered open port 80/tcp on 192.168.43.202
+Discovered open port 3306/tcp on 192.168.43.208
+Discovered open port 25/tcp on 192.168.43.87
+Discovered open port 3389/tcp on 192.168.43.205
+Discovered open port 80/tcp on 192.168.43.216
+Discovered open port 25/tcp on 192.168.43.159
+Discovered open port 3306/tcp on 192.168.43.57
+Discovered open port 23/tcp on 192.168.43.222
+Discovered open port 3389/tcp on 192.168.43.34
+Discovered open port 443/tcp on 192.168.43.83
+Discovered open port 110/tcp on 192.168.43.216
+Discovered open port 80/tcp on 192.168.43.229
+Discovered open port 25/tcp on 192.168.43.113
+Discovered open port 111/tcp on 192.168.43.208
+Discovered open port 3389/tcp on 192.168.43.22
+Discovered open port 80/tcp on 192.168.43.206
+Discovered open port 80/tcp on 192.168.43.223
+Discovered open port 3389/tcp on 192.168.43.28
+Discovered open port 110/tcp on 192.168.43.224
+Discovered open port 110/tcp on 192.168.43.229
+Discovered open port 80/tcp on 192.168.43.208
+Discovered open port 25/tcp on 192.168.43.114
+Discovered open port 3389/tcp on 192.168.43.96
+Discovered open port 1025/tcp on 192.168.43.227
+Discovered open port 3306/tcp on 192.168.43.167
+Discovered open port 3389/tcp on 192.168.43.59
+Discovered open port 995/tcp on 192.168.43.222
+Discovered open port 135/tcp on 192.168.43.223
+Discovered open port 80/tcp on 192.168.43.57
+Discovered open port 3389/tcp on 192.168.43.107
+Discovered open port 110/tcp on 192.168.43.143
+Discovered open port 3389/tcp on 192.168.43.223
+Discovered open port 135/tcp on 192.168.43.227
+Discovered open port 3389/tcp on 192.168.43.44
+Discovered open port 3306/tcp on 192.168.43.116
+Discovered open port 143/tcp on 192.168.43.224
+Discovered open port 143/tcp on 192.168.43.215
+Discovered open port 135/tcp on 192.168.43.206
+Discovered open port 3389/tcp on 192.168.43.40
+Discovered open port 3389/tcp on 192.168.43.206
+Discovered open port 135/tcp on 192.168.43.229
+Discovered open port 135/tcp on 192.168.43.128
+Discovered open port 143/tcp on 192.168.43.216
+Discovered open port 3389/tcp on 192.168.43.67
+Discovered open port 135/tcp on 192.168.43.218
+Discovered open port 3389/tcp on 192.168.43.226
+Discovered open port 3306/tcp on 192.168.43.83
+Discovered open port 80/tcp on 192.168.43.230
+Discovered open port 80/tcp on 192.168.43.219
+Discovered open port 143/tcp on 192.168.43.143
+Discovered open port 143/tcp on 192.168.43.229
+Discovered open port 110/tcp on 192.168.43.45
+Discovered open port 3389/tcp on 192.168.43.12
+Discovered open port 3389/tcp on 192.168.43.82
+Discovered open port 3389/tcp on 192.168.43.113
+Discovered open port 3389/tcp on 192.168.43.128
+Discovered open port 135/tcp on 192.168.43.162
+Discovered open port 3389/tcp on 192.168.43.229
+Discovered open port 3389/tcp on 192.168.43.57
+Discovered open port 3389/tcp on 192.168.43.81
+Discovered open port 3389/tcp on 192.168.43.143
+Discovered open port 3389/tcp on 192.168.43.162
+Discovered open port 995/tcp on 192.168.43.224
+Discovered open port 3389/tcp on 192.168.43.131
+Discovered open port 3389/tcp on 192.168.43.154
+Discovered open port 110/tcp on 192.168.43.114
+Discovered open port 3389/tcp on 192.168.43.93
+Discovered open port 80/tcp on 192.168.43.83
+Discovered open port 80/tcp on 192.168.43.167
+Discovered open port 3389/tcp on 192.168.43.126
+Discovered open port 135/tcp on 192.168.43.220
+Discovered open port 3389/tcp on 192.168.43.45
+Discovered open port 80/tcp on 192.168.43.116
+Discovered open port 110/tcp on 192.168.43.159
+Discovered open port 3389/tcp on 192.168.43.220
+Discovered open port 3389/tcp on 192.168.43.87
+Discovered open port 135/tcp on 192.168.43.97
+Discovered open port 80/tcp on 192.168.43.210
+Discovered open port 80/tcp on 192.168.43.203
+Discovered open port 135/tcp on 192.168.43.221
+Discovered open port 3389/tcp on 192.168.43.83
+Discovered open port 3389/tcp on 192.168.43.114
+Discovered open port 3389/tcp on 192.168.43.127
+Discovered open port 3389/tcp on 192.168.43.116
+Discovered open port 3389/tcp on 192.168.43.10
+Discovered open port 3389/tcp on 192.168.43.221
+Discovered open port 53/tcp on 192.168.43.220
+Discovered open port 3389/tcp on 192.168.43.97
+Discovered open port 3389/tcp on 192.168.43.14
+Discovered open port 3389/tcp on 192.168.43.88
+Discovered open port 3389/tcp on 192.168.43.141
+Discovered open port 3389/tcp on 192.168.43.225
+Discovered open port 3389/tcp on 192.168.43.207
+Discovered open port 135/tcp on 192.168.43.230
+Discovered open port 80/tcp on 192.168.43.204
+Discovered open port 53/tcp on 192.168.43.221
+Discovered open port 3389/tcp on 192.168.43.203
+Discovered open port 3389/tcp on 192.168.43.163
+Discovered open port 135/tcp on 192.168.43.167
+Discovered open port 3389/tcp on 192.168.43.167
+Discovered open port 3389/tcp on 192.168.43.230
+Discovered open port 143/tcp on 192.168.43.159
+Discovered open port 3389/tcp on 192.168.43.159
+Discovered open port 3389/tcp on 192.168.43.204
+Discovered open port 2030/tcp on 192.168.43.205
+Discovered open port 2030/tcp on 192.168.43.206
+SYN Stealth Scan Timing: About 5.26% done; ETC: 20:40 (0:09:18 remaining)
+Discovered open port 636/tcp on 192.168.43.220
+Discovered open port 3268/tcp on 192.168.43.220
+Discovered open port 49156/tcp on 192.168.43.11
+Discovered open port 49156/tcp on 192.168.43.223
+SYN Stealth Scan Timing: About 16.99% done; ETC: 20:36 (0:04:58 remaining)
+Discovered open port 49156/tcp on 192.168.43.34
+Discovered open port 49156/tcp on 192.168.43.78
+Discovered open port 49156/tcp on 192.168.43.157
+Discovered open port 49156/tcp on 192.168.43.167
+Discovered open port 49156/tcp on 192.168.43.132
+Discovered open port 49156/tcp on 192.168.43.221
+Discovered open port 49156/tcp on 192.168.43.128
+Discovered open port 49156/tcp on 192.168.43.162
+Discovered open port 49156/tcp on 192.168.43.97
+Discovered open port 49156/tcp on 192.168.43.107
+SYN Stealth Scan Timing: About 21.99% done; ETC: 20:37 (0:05:23 remaining)
+Discovered open port 1027/tcp on 192.168.43.227
+Discovered open port 49176/tcp on 192.168.43.220
+Discovered open port 1027/tcp on 192.168.43.229
+Discovered open port 106/tcp on 192.168.43.143
+Discovered open port 49157/tcp on 192.168.43.220
+Discovered open port 106/tcp on 192.168.43.132
+Discovered open port 106/tcp on 192.168.43.34
+Discovered open port 49157/tcp on 192.168.43.223
+Discovered open port 106/tcp on 192.168.43.159
+Discovered open port 49157/tcp on 192.168.43.230
+Discovered open port 631/tcp on 192.168.43.208
+Discovered open port 1032/tcp on 192.168.43.206
+Discovered open port 389/tcp on 192.168.43.220
+Discovered open port 1030/tcp on 192.168.43.206
+Discovered open port 1030/tcp on 192.168.43.205
+SYN Stealth Scan Timing: About 42.41% done; ETC: 20:39 (0:04:59 remaining)
+Increasing send delay for 192.168.43.202 from 0 to 5 due to 65 out of 216 dropped probes since last increase.
+Increasing send delay for 192.168.43.202 from 5 to 10 due to 11 out of 23 dropped probes since last increase.
+Discovered open port 464/tcp on 192.168.43.220
+SYN Stealth Scan Timing: About 49.67% done; ETC: 20:39 (0:04:32 remaining)
+Discovered open port 49153/tcp on 192.168.43.157
+Discovered open port 49153/tcp on 192.168.43.128
+Discovered open port 79/tcp on 192.168.43.143
+Increasing send delay for 192.168.43.202 from 10 to 20 due to 11 out of 11 dropped probes since last increase.
+Discovered open port 79/tcp on 192.168.43.132
+Discovered open port 49153/tcp on 192.168.43.132
+Discovered open port 79/tcp on 192.168.43.34
+Discovered open port 49153/tcp on 192.168.43.107
+Discovered open port 49153/tcp on 192.168.43.97
+Discovered open port 49153/tcp on 192.168.43.11
+Discovered open port 49153/tcp on 192.168.43.34
+Discovered open port 49153/tcp on 192.168.43.167
+Discovered open port 79/tcp on 192.168.43.159
+SYN Stealth Scan Timing: About 55.64% done; ETC: 20:39 (0:04:05 remaining)
+Discovered open port 49153/tcp on 192.168.43.220
+Discovered open port 49153/tcp on 192.168.43.223
+Discovered open port 49153/tcp on 192.168.43.78
+Discovered open port 49155/tcp on 192.168.43.157
+Increasing send delay for 192.168.43.202 from 20 to 40 due to 11 out of 11 dropped probes since last increase.
+Discovered open port 49155/tcp on 192.168.43.128
+Discovered open port 8009/tcp on 192.168.43.209
+SYN Stealth Scan Timing: About 61.49% done; ETC: 20:39 (0:03:33 remaining)
+Discovered open port 49155/tcp on 192.168.43.132
+Discovered open port 49153/tcp on 192.168.43.230
+Discovered open port 49155/tcp on 192.168.43.167
+Discovered open port 49155/tcp on 192.168.43.107
+Discovered open port 49155/tcp on 192.168.43.97
+Discovered open port 4443/tcp on 192.168.43.205
+Discovered open port 49155/tcp on 192.168.43.11
+Discovered open port 49155/tcp on 192.168.43.220
+Discovered open port 49155/tcp on 192.168.43.223
+Increasing send delay for 192.168.43.202 from 40 to 80 due to 11 out of 11 dropped probes since last increase.
+Discovered open port 49155/tcp on 192.168.43.34
+Discovered open port 5800/tcp on 192.168.43.227
+Discovered open port 5357/tcp on 192.168.43.221
+Discovered open port 49155/tcp on 192.168.43.78
+SYN Stealth Scan Timing: About 68.70% done; ETC: 20:39 (0:02:49 remaining)
+Discovered open port 1521/tcp on 192.168.43.206
+Increasing send delay for 192.168.43.202 from 80 to 160 due to 11 out of 11 dropped probes since last increase.
+Discovered open port 2100/tcp on 192.168.43.206
+Discovered open port 49152/tcp on 192.168.43.157
+SYN Stealth Scan Timing: About 75.84% done; ETC: 20:39 (0:02:07 remaining)
+Discovered open port 49152/tcp on 192.168.43.167
+Discovered open port 49152/tcp on 192.168.43.128
+Increasing send delay for 192.168.43.202 from 160 to 320 due to 11 out of 11 dropped probes since last increase.
+Completed SYN Stealth Scan against 192.168.43.203 in 403.83s (63 hosts left)
+Completed SYN Stealth Scan against 192.168.43.163 in 408.45s (62 hosts left)
+Discovered open port 49152/tcp on 192.168.43.132
+Discovered open port 1031/tcp on 192.168.43.205
+Discovered open port 1028/tcp on 192.168.43.206
+Discovered open port 49152/tcp on 192.168.43.107
+Discovered open port 49152/tcp on 192.168.43.97
+Discovered open port 32768/tcp on 192.168.43.215
+Discovered open port 1521/tcp on 192.168.43.205
+Discovered open port 49152/tcp on 192.168.43.223
+Discovered open port 88/tcp on 192.168.43.220
+Discovered open port 49152/tcp on 192.168.43.11
+Discovered open port 2100/tcp on 192.168.43.205
+Discovered open port 49152/tcp on 192.168.43.220
+Discovered open port 49159/tcp on 192.168.43.230
+Discovered open port 49154/tcp on 192.168.43.167
+Discovered open port 49154/tcp on 192.168.43.157
+SYN Stealth Scan Timing: About 85.34% done; ETC: 20:38 (0:01:14 remaining)
+Discovered open port 5555/tcp on 192.168.43.88
+Increasing send delay for 192.168.43.162 from 0 to 5 due to 123 out of 409 dropped probes since last increase.
+Discovered open port 49152/tcp on 192.168.43.78
+Discovered open port 32768/tcp on 192.168.43.222
+Discovered open port 49152/tcp on 192.168.43.230
+Discovered open port 49152/tcp on 192.168.43.34
+Completed SYN Stealth Scan against 192.168.43.204 in 444.42s (61 hosts left)
+Completed SYN Stealth Scan against 192.168.43.167 in 444.51s (60 hosts left)
+Discovered open port 1026/tcp on 192.168.43.206
+Discovered open port 49154/tcp on 192.168.43.128
+Completed SYN Stealth Scan against 192.168.43.157 in 446.64s (59 hosts left)
+Discovered open port 3372/tcp on 192.168.43.206
+Completed SYN Stealth Scan against 192.168.43.116 in 449.64s (58 hosts left)
+Increasing send delay for 192.168.43.202 from 320 to 640 due to 11 out of 26 dropped probes since last increase.
+Completed SYN Stealth Scan against 192.168.43.206 in 455.89s (57 hosts left)
+Discovered open port 593/tcp on 192.168.43.220
+Discovered open port 7778/tcp on 192.168.43.205
+SYN Stealth Scan Timing: About 92.52% done; ETC: 20:38 (0:00:37 remaining)
+Discovered open port 49154/tcp on 192.168.43.132
+Completed SYN Stealth Scan against 192.168.43.141 in 460.31s (56 hosts left)
+Completed SYN Stealth Scan against 192.168.43.209 in 460.36s (55 hosts left)
+Completed SYN Stealth Scan against 192.168.43.128 in 460.43s (54 hosts left)
+Increasing send delay for 192.168.43.162 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+Discovered open port 3269/tcp on 192.168.43.220
+Discovered open port 49154/tcp on 192.168.43.220
+Discovered open port 1026/tcp on 192.168.43.205
+Discovered open port 49154/tcp on 192.168.43.223
+Discovered open port 49158/tcp on 192.168.43.220
+Completed SYN Stealth Scan against 192.168.43.154 in 465.75s (53 hosts left)
+Discovered open port 49154/tcp on 192.168.43.97
+Completed SYN Stealth Scan against 192.168.43.143 in 466.35s (52 hosts left)
+Discovered open port 49154/tcp on 192.168.43.107
+Discovered open port 3372/tcp on 192.168.43.205
+Completed SYN Stealth Scan against 192.168.43.218 in 469.49s (51 hosts left)
+Completed SYN Stealth Scan against 192.168.43.159 in 471.52s (50 hosts left)
+Completed SYN Stealth Scan against 192.168.43.207 in 472.55s (49 hosts left)
+Discovered open port 49154/tcp on 192.168.43.11
+Completed SYN Stealth Scan against 192.168.43.132 in 473.11s (48 hosts left)
+Completed SYN Stealth Scan against 192.168.43.216 in 473.35s (47 hosts left)
+Completed SYN Stealth Scan against 192.168.43.126 in 473.37s (46 hosts left)
+Completed SYN Stealth Scan against 192.168.43.220 in 473.66s (45 hosts left)
+Discovered open port 1026/tcp on 192.168.43.227
+Completed SYN Stealth Scan against 192.168.43.214 in 474.27s (44 hosts left)
+Completed SYN Stealth Scan against 192.168.43.205 in 474.56s (43 hosts left)
+Completed SYN Stealth Scan against 192.168.43.215 in 474.95s (42 hosts left)
+Completed SYN Stealth Scan against 192.168.43.127 in 475.06s (41 hosts left)
+Completed SYN Stealth Scan against 192.168.43.208 in 475.31s (40 hosts left)
+Completed SYN Stealth Scan against 192.168.43.223 in 476.05s (39 hosts left)
+Completed SYN Stealth Scan against 192.168.43.96 in 476.68s (38 hosts left)
+Completed SYN Stealth Scan against 192.168.43.93 in 477.07s (37 hosts left)
+Completed SYN Stealth Scan against 192.168.43.57 in 477.76s (36 hosts left)
+Completed SYN Stealth Scan against 192.168.43.97 in 478.90s (35 hosts left)
+Completed SYN Stealth Scan against 192.168.43.114 in 479.18s (34 hosts left)
+Completed SYN Stealth Scan against 192.168.43.219 in 479.43s (33 hosts left)
+Completed SYN Stealth Scan against 192.168.43.59 in 479.69s (32 hosts left)
+Completed SYN Stealth Scan against 192.168.43.224 in 480.02s (31 hosts left)
+Discovered open port 3372/tcp on 192.168.43.227
+Completed SYN Stealth Scan against 192.168.43.107 in 480.67s (30 hosts left)
+Completed SYN Stealth Scan against 192.168.43.88 in 480.79s (29 hosts left)
+Completed SYN Stealth Scan against 192.168.43.210 in 480.86s (28 hosts left)
+Discovered open port 49154/tcp on 192.168.43.78
+Completed SYN Stealth Scan against 192.168.43.131 in 481.64s (27 hosts left)
+Discovered open port 49154/tcp on 192.168.43.230
+Completed SYN Stealth Scan against 192.168.43.10 in 482.02s (26 hosts left)
+Completed SYN Stealth Scan against 192.168.43.226 in 482.05s (25 hosts left)
+Completed SYN Stealth Scan against 192.168.43.12 in 482.45s (24 hosts left)
+Completed SYN Stealth Scan against 192.168.43.87 in 482.67s (23 hosts left)
+Completed SYN Stealth Scan against 192.168.43.28 in 482.89s (22 hosts left)
+Completed SYN Stealth Scan against 192.168.43.11 in 483.01s (21 hosts left)
+Completed SYN Stealth Scan against 192.168.43.221 in 483.21s (20 hosts left)
+Increasing send delay for 192.168.43.162 from 10 to 20 due to 11 out of 11 dropped probes since last increase.
+Completed SYN Stealth Scan against 192.168.43.201 in 483.80s (19 hosts left)
+Discovered open port 49154/tcp on 192.168.43.34
+Discovered open port 49158/tcp on 192.168.43.230
