@@ -1,0 +1,6 @@
+# Nmap 6.47 scan initiated Thu Oct  1 11:55:28 2015 as: nmap -p T:53,U:53 --open -iL results/ipList.txt -oA output/Lab_Vlan-nmap-DNS
+Host: 192.168.43.220 ()	Status: Up
+Host: 192.168.43.220 ()	Ports: 53/open/tcp//domain///
+Host: 192.168.43.221 ()	Status: Up
+Host: 192.168.43.221 ()	Ports: 53/open/tcp//domain///
+# Nmap done at Thu Oct  1 11:55:30 2015 -- 41 IP addresses (41 hosts up) scanned in 1.35 seconds

@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Oct  1 12:08:33 2015 as: nmap -&#45;script ftp-vuln-cve2010-4221.nse -p 21 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Ftp-vuln-cve2010-4221 -->
+<nmaprun scanner="nmap" args="nmap -&#45;script ftp-vuln-cve2010-4221.nse -p 21 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Ftp-vuln-cve2010-4221" start="1443715713" startstr="Thu Oct  1 12:08:33 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="21"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.201" addrtype="ipv4"/>
+<address addr="00:50:56:AF:25:EB" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53840" rttvar="40691" to="216604"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.202" addrtype="ipv4"/>
+<address addr="00:50:56:AF:22:47" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="54587" rttvar="41495" to="220567"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.203" addrtype="ipv4"/>
+<address addr="00:50:56:AF:35:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="54352" rttvar="41341" to="219716"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.204" addrtype="ipv4"/>
+<address addr="00:50:56:AF:13:05" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="88452" rttvar="80349" to="409848"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.205" addrtype="ipv4"/>
+<address addr="00:50:56:AF:28:1A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="55009" rttvar="42164" to="223665"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.206" addrtype="ipv4"/>
+<address addr="00:50:56:AF:70:5B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="89522" rttvar="71232" to="374450"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.207" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4C:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="55366" rttvar="55366" to="276830"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.208" addrtype="ipv4"/>
+<address addr="00:50:56:AF:54:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="54912" rttvar="42063" to="223164"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.209" addrtype="ipv4"/>
+<address addr="00:50:56:AF:43:4B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="54932" rttvar="41793" to="222104"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.210" addrtype="ipv4"/>
+<address addr="00:50:56:AF:10:A4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="55030" rttvar="55030" to="275150"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.214" addrtype="ipv4"/>
+<address addr="00:50:56:AF:36:A8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="54769" rttvar="41581" to="221093"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.215" addrtype="ipv4"/>
+<address addr="00:50:56:AF:68:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53595" rttvar="40319" to="214871"/>
+</host>
+<host starttime="1443715713" endtime="1443715721"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.216" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0D:71" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="54011" rttvar="40776" to="217115"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.218" addrtype="ipv4"/>
+<address addr="00:50:56:AF:01:B8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52766" rttvar="52766" to="263830"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.219" addrtype="ipv4"/>
+<address addr="00:50:56:AF:67:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52783" rttvar="52783" to="263915"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.220" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0E:3D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52688" rttvar="39530" to="210808"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.221" addrtype="ipv4"/>
+<address addr="00:50:56:AF:41:22" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52586" rttvar="52586" to="262930"/>
+</host>
+<host starttime="1443715713" endtime="1443715730"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.222" addrtype="ipv4"/>
+<address addr="00:50:56:AF:6B:F6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52631" rttvar="39498" to="210623"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.223" addrtype="ipv4"/>
+<address addr="00:50:56:AF:5C:EA" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52962" rttvar="39806" to="212186"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.224" addrtype="ipv4"/>
+<address addr="00:50:56:AF:45:9F" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52664" rttvar="39517" to="210732"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.225" addrtype="ipv4"/>
+<address addr="00:50:56:AF:21:59" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52583" rttvar="39474" to="210479"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.226" addrtype="ipv4"/>
+<address addr="00:50:56:AF:19:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53317" rttvar="40205" to="214137"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.227" addrtype="ipv4"/>
+<address addr="00:50:56:AF:46:7E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52615" rttvar="39512" to="210663"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.229" addrtype="ipv4"/>
+<address addr="00:50:56:AF:00:25" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53275" rttvar="40029" to="213391"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.230" addrtype="ipv4"/>
+<address addr="00:50:56:AF:34:6A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53263" rttvar="40012" to="213311"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.231" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4D:4A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="128"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52749" rttvar="39658" to="211381"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.234" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4B:2A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52982" rttvar="39757" to="212010"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.235" addrtype="ipv4"/>
+<address addr="00:50:56:AF:75:18" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="host-prohibited" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="63431" rttvar="52318" to="272703"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.236" addrtype="ipv4"/>
+<address addr="00:50:56:AF:71:9B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53055" rttvar="39896" to="212639"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.237" addrtype="ipv4"/>
+<address addr="00:50:56:AF:11:51" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53993" rttvar="41114" to="218449"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.238" addrtype="ipv4"/>
+<address addr="00:50:56:AF:62:7C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="54030" rttvar="41101" to="218434"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.239" addrtype="ipv4"/>
+<address addr="00:50:56:AF:60:4D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53261" rttvar="53261" to="266305"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.241" addrtype="ipv4"/>
+<address addr="00:50:56:AF:56:B4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="58820" rttvar="45988" to="242772"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.242" addrtype="ipv4"/>
+<address addr="00:50:56:AF:66:B7" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53882" rttvar="40892" to="217450"/>
+</host>
+<host starttime="1443715713" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.244" addrtype="ipv4"/>
+<address addr="00:50:56:AF:20:E6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="closed" reason="reset" reason_ttl="64"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53588" rttvar="40506" to="215612"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.245" addrtype="ipv4"/>
+<address addr="00:50:56:AF:38:2C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="54163" rttvar="54163" to="270815"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.247" addrtype="ipv4"/>
+<address addr="00:50:56:AF:44:41" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="54185" rttvar="54185" to="270925"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.249" addrtype="ipv4"/>
+<address addr="00:50:56:AF:16:9D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ftp" method="table" conf="3"/><script id="ftp-vuln-cve2010-4221" output="&#xa;  VULNERABLE:&#xa;  ProFTPD server TELNET IAC stack overflow&#xa;    State: VULNERABLE&#xa;    IDs:  OSVDB:68985  BID:44562  CVE:CVE-2010-4221&#xa;    Risk factor: High  CVSSv2: 10.0 (HIGH) (AV:N/AC:L/Au:N/C:C/I:C/A:C)&#xa;    Description:&#xa;      ProFTPD server (version 1.3.2rc3 through 1.3.3b) is vulnerable to&#xa;      stack-based buffer overflow. By sending a large number of TELNET_IAC&#xa;      escape sequence, a remote attacker will be able to corrupt the stack and&#xa;      execute arbitrary code.&#xa;    Disclosure date: 2011-11-2&#xa;    References:&#xa;      http://www.securityfocus.com/bid/44562&#xa;      http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-4221&#xa;      http://bugs.proftpd.org/show_bug.cgi?id=3521&#xa;      http://www.metasploit.com/modules/exploit/freebsd/ftp/proftp_telnet_iac&#xa;      http://osvdb.org/68985&#xa;"/></port>
+</ports>
+<times srtt="58452" rttvar="50612" to="260900"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.250" addrtype="ipv4"/>
+<address addr="00:50:56:AF:57:03" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53729" rttvar="53729" to="268645"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.251" addrtype="ipv4"/>
+<address addr="00:50:56:AF:3C:1E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53274" rttvar="53274" to="266370"/>
+</host>
+<host starttime="1443715713" endtime="1443715714"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.252" addrtype="ipv4"/>
+<address addr="00:50:56:AF:24:6C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53683" rttvar="53683" to="268415"/>
+</host>
+<runstats><finished time="1443715730" timestr="Thu Oct  1 12:08:50 2015" elapsed="17.07" summary="Nmap done at Thu Oct  1 12:08:50 2015; 41 IP addresses (41 hosts up) scanned in 17.07 seconds" exit="success"/><hosts up="41" down="0" total="41"/>
+</runstats>
+</nmaprun>

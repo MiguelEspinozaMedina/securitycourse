@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Oct  1 11:57:27 2015 as: nmap -&#45;script smb-check-vulns -p 139,445 -&#45;script-args unsafe=1 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Samba-check-vulns -->
+<nmaprun scanner="nmap" args="nmap -&#45;script smb-check-vulns -p 139,445 -&#45;script-args unsafe=1 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Samba-check-vulns" start="1443715047" startstr="Thu Oct  1 11:57:27 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="139,445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1443715047" endtime="1443715363"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.201" addrtype="ipv4"/>
+<address addr="00:50:56:AF:25:EB" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: Likely CLEAN&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="53594" rttvar="30284" to="174730"/>
+</host>
+<host starttime="1443715047" endtime="1443715047"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.202" addrtype="ipv4"/>
+<address addr="00:50:56:AF:22:47" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52904" rttvar="29939" to="172660"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.203" addrtype="ipv4"/>
+<address addr="00:50:56:AF:35:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53562" rttvar="53562" to="267810"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.204" addrtype="ipv4"/>
+<address addr="00:50:56:AF:13:05" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="15864" rttvar="15864" to="100000"/>
+</host>
+<host starttime="1443715047" endtime="1443715204"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.205" addrtype="ipv4"/>
+<address addr="00:50:56:AF:28:1A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  MS08-067: VULNERABLE&#xa;  Conficker: Likely CLEAN&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="53354" rttvar="30341" to="174718"/>
+</host>
+<host starttime="1443715047" endtime="1443715363"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.206" addrtype="ipv4"/>
+<address addr="00:50:56:AF:70:5B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  MS08-067: VULNERABLE&#xa;  Conficker: Likely CLEAN&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="56523" rttvar="37166" to="205187"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.207" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4C:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53156" rttvar="53156" to="265780"/>
+</host>
+<host starttime="1443715047" endtime="1443715203"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.208" addrtype="ipv4"/>
+<address addr="00:50:56:AF:54:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).&#xa;  |  If you know the remote system is Windows, try rebooting it and scanning&#xa;  |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)&#xa;  regsvc DoS: VULNERABLE&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="52913" rttvar="29961" to="172757"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.209" addrtype="ipv4"/>
+<address addr="00:50:56:AF:43:4B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53051" rttvar="29990" to="173011"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.210" addrtype="ipv4"/>
+<address addr="00:50:56:AF:10:A4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52820" rttvar="52820" to="264100"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.214" addrtype="ipv4"/>
+<address addr="00:50:56:AF:36:A8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53238" rttvar="30342" to="174606"/>
+</host>
+<host starttime="1443715047" endtime="1443715059"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.215" addrtype="ipv4"/>
+<address addr="00:50:56:AF:68:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: UNKNOWN; got error SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [14]&#xa;  SMBv2 DoS (CVE-2009-3103): VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="53465" rttvar="30182" to="174193"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.216" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0D:71" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53854" rttvar="30489" to="175810"/>
+</host>
+<host starttime="1443715047" endtime="1443715203"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.218" addrtype="ipv4"/>
+<address addr="00:50:56:AF:01:B8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: Likely CLEAN; access was denied.&#xa;  |  If you have a login, try using -&#45;script-args=smbuser=xxx,smbpass=yyy&#xa;  |  (replace xxx and yyy with your username and password). Also try&#xa;  |_ smbdomain=zzz if you know the domain. (Error NT_STATUS_ACCESS_DENIED)&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="52724" rttvar="29839" to="172080"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.219" addrtype="ipv4"/>
+<address addr="00:50:56:AF:67:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52460" rttvar="52460" to="262300"/>
+</host>
+<host starttime="1443715047" endtime="1443715204"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.220" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0E:3D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: Likely CLEAN; access was denied.&#xa;  |  If you have a login, try using -&#45;script-args=smbuser=xxx,smbpass=yyy&#xa;  |  (replace xxx and yyy with your username and password). Also try&#xa;  |_ smbdomain=zzz if you know the domain. (Error NT_STATUS_ACCESS_DENIED)&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="52527" rttvar="29564" to="170783"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.221" addrtype="ipv4"/>
+<address addr="00:50:56:AF:41:22" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="54517" rttvar="54517" to="272585"/>
+</host>
+<host starttime="1443715047" endtime="1443715059"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.222" addrtype="ipv4"/>
+<address addr="00:50:56:AF:6B:F6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="255"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: UNKNOWN; got error SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [14]&#xa;  SMBv2 DoS (CVE-2009-3103): VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="52391" rttvar="29567" to="170659"/>
+</host>
+<host starttime="1443715047" endtime="1443715363"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.223" addrtype="ipv4"/>
+<address addr="00:50:56:AF:5C:EA" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).&#xa;  |  If you know the remote system is Windows, try rebooting it and scanning&#xa;  |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="52728" rttvar="29819" to="172004"/>
+</host>
+<host starttime="1443715047" endtime="1443715204"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.224" addrtype="ipv4"/>
+<address addr="00:50:56:AF:45:9F" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).&#xa;  |  If you know the remote system is Windows, try rebooting it and scanning&#xa;  |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)&#xa;  regsvc DoS: VULNERABLE&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="52843" rttvar="29942" to="172611"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.225" addrtype="ipv4"/>
+<address addr="00:50:56:AF:21:59" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52792" rttvar="52792" to="263960"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.226" addrtype="ipv4"/>
+<address addr="00:50:56:AF:19:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53176" rttvar="53176" to="265880"/>
+</host>
+<host starttime="1443715047" endtime="1443715259"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.227" addrtype="ipv4"/>
+<address addr="00:50:56:AF:46:7E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  MS08-067: VULNERABLE&#xa;  Conficker: Likely CLEAN&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="53314" rttvar="30266" to="174378"/>
+</host>
+<host starttime="1443715047" endtime="1443715363"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.229" addrtype="ipv4"/>
+<address addr="00:50:56:AF:00:25" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  MS08-067: VULNERABLE&#xa;  Conficker: Likely CLEAN&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="52900" rttvar="29975" to="172800"/>
+</host>
+<host starttime="1443715047" endtime="1443715203"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.230" addrtype="ipv4"/>
+<address addr="00:50:56:AF:34:6A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: Likely CLEAN; access was denied.&#xa;  |  If you have a login, try using -&#45;script-args=smbuser=xxx,smbpass=yyy&#xa;  |  (replace xxx and yyy with your username and password). Also try&#xa;  |_ smbdomain=zzz if you know the domain. (Error NT_STATUS_ACCESS_DENIED)&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="53154" rttvar="30190" to="173914"/>
+</host>
+<host starttime="1443715047" endtime="1443715363"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.231" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4D:4A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  MS08-067: VULNERABLE&#xa;  Conficker: Likely CLEAN&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="53001" rttvar="29959" to="172837"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.234" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4B:2A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53485" rttvar="30179" to="174201"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.235" addrtype="ipv4"/>
+<address addr="00:50:56:AF:75:18" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="host-prohibited" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="host-prohibited" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53356" rttvar="30271" to="174440"/>
+</host>
+<host starttime="1443715047" endtime="1443715203"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.236" addrtype="ipv4"/>
+<address addr="00:50:56:AF:71:9B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).&#xa;  |  If you know the remote system is Windows, try rebooting it and scanning&#xa;  |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)&#xa;  regsvc DoS: VULNERABLE&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="53536" rttvar="30272" to="174624"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.237" addrtype="ipv4"/>
+<address addr="00:50:56:AF:11:51" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53592" rttvar="30544" to="175768"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.238" addrtype="ipv4"/>
+<address addr="00:50:56:AF:62:7C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53216" rttvar="30418" to="174888"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.239" addrtype="ipv4"/>
+<address addr="00:50:56:AF:60:4D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53619" rttvar="53619" to="268095"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.241" addrtype="ipv4"/>
+<address addr="00:50:56:AF:56:B4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="63971" rttvar="36538" to="210123"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.242" addrtype="ipv4"/>
+<address addr="00:50:56:AF:66:B7" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53635" rttvar="30853" to="177047"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.244" addrtype="ipv4"/>
+<address addr="00:50:56:AF:20:E6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53656" rttvar="30746" to="176640"/>
+</host>
+<host starttime="1443715047" endtime="1443715259"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.245" addrtype="ipv4"/>
+<address addr="00:50:56:AF:38:2C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).&#xa;  |  If you know the remote system is Windows, try rebooting it and scanning&#xa;  |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)&#xa;  SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="53046" rttvar="30039" to="173202"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.247" addrtype="ipv4"/>
+<address addr="00:50:56:AF:44:41" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53380" rttvar="53380" to="266900"/>
+</host>
+<host starttime="1443715047" endtime="1443715048"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.249" addrtype="ipv4"/>
+<address addr="00:50:56:AF:16:9D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="65033" rttvar="47458" to="254865"/>
+</host>
+<host starttime="1443715047" endtime="1443715363"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.250" addrtype="ipv4"/>
+<address addr="00:50:56:AF:57:03" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-check-vulns" output="&#xa;  Conficker: UNKNOWN; got error No accounts left to try&#xa;  SMBv2 DoS (CVE-2009-3103): VULNERABLE&#xa;  MS06-025: NO SERVICE (the Ras RPC service is inactive)&#xa;  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)&#xa;"/></hostscript><times srtt="60204" rttvar="53402" to="273812"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.251" addrtype="ipv4"/>
+<address addr="00:50:56:AF:3C:1E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53115" rttvar="53115" to="265575"/>
+</host>
+<host starttime="1443715047" endtime="1443715049"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.252" addrtype="ipv4"/>
+<address addr="00:50:56:AF:24:6C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53573" rttvar="53573" to="267865"/>
+</host>
+<runstats><finished time="1443715363" timestr="Thu Oct  1 12:02:43 2015" elapsed="316.53" summary="Nmap done at Thu Oct  1 12:02:43 2015; 41 IP addresses (41 hosts up) scanned in 316.53 seconds" exit="success"/><hosts up="41" down="0" total="41"/>
+</runstats>
+</nmaprun>

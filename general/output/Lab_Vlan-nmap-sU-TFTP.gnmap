@@ -1,0 +1,34 @@
+# Nmap 6.47 scan initiated Thu Oct  1 11:53:31 2015 as: nmap -p 69 -sU --open --script tftp-enum.nse -iL results/ipList.txt -oA output/Lab_Vlan-nmap-sU-TFTP
+Host: 192.168.43.203 ()	Status: Up
+Host: 192.168.43.203 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.204 ()	Status: Up
+Host: 192.168.43.204 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.207 ()	Status: Up
+Host: 192.168.43.207 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.210 ()	Status: Up
+Host: 192.168.43.210 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.218 ()	Status: Up
+Host: 192.168.43.218 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.219 ()	Status: Up
+Host: 192.168.43.219 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.221 ()	Status: Up
+Host: 192.168.43.221 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.225 ()	Status: Up
+Host: 192.168.43.225 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.226 ()	Status: Up
+Host: 192.168.43.226 ()	Ports: 69/open/udp//tftp///
+Host: 192.168.43.237 ()	Status: Up
+Host: 192.168.43.237 ()	Ports: 69/open/udp//tftp///
+Host: 192.168.43.239 ()	Status: Up
+Host: 192.168.43.239 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.245 ()	Status: Up
+Host: 192.168.43.245 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.247 ()	Status: Up
+Host: 192.168.43.247 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.250 ()	Status: Up
+Host: 192.168.43.250 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.251 ()	Status: Up
+Host: 192.168.43.251 ()	Ports: 69/open|filtered/udp//tftp///
+Host: 192.168.43.252 ()	Status: Up
+Host: 192.168.43.252 ()	Ports: 69/open|filtered/udp//tftp///
+# Nmap done at Thu Oct  1 11:55:28 2015 -- 41 IP addresses (41 hosts up) scanned in 117.86 seconds

@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Oct  1 11:53:31 2015 as: nmap -p 69 -sU -&#45;open -&#45;script tftp-enum.nse -iL results/ipList.txt -oA output/Lab_Vlan-nmap-sU-TFTP -->
+<nmaprun scanner="nmap" args="nmap -p 69 -sU -&#45;open -&#45;script tftp-enum.nse -iL results/ipList.txt -oA output/Lab_Vlan-nmap-sU-TFTP" start="1443714811" startstr="Thu Oct  1 11:53:31 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="udp" protocol="udp" numservices="1" services="69"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.203" addrtype="ipv4"/>
+<address addr="00:50:56:AF:35:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52946" rttvar="52946" to="264730"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.204" addrtype="ipv4"/>
+<address addr="00:50:56:AF:13:05" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="78293" rttvar="78293" to="391465"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.207" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4C:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52943" rttvar="52943" to="264715"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.210" addrtype="ipv4"/>
+<address addr="00:50:56:AF:10:A4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52875" rttvar="52875" to="264375"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.218" addrtype="ipv4"/>
+<address addr="00:50:56:AF:01:B8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52862" rttvar="52862" to="264310"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.219" addrtype="ipv4"/>
+<address addr="00:50:56:AF:67:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52706" rttvar="52706" to="263530"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.221" addrtype="ipv4"/>
+<address addr="00:50:56:AF:41:22" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52418" rttvar="52418" to="262090"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.225" addrtype="ipv4"/>
+<address addr="00:50:56:AF:21:59" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52794" rttvar="52794" to="263970"/>
+</host>
+<host starttime="1443714811" endtime="1443714928"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.226" addrtype="ipv4"/>
+<address addr="00:50:56:AF:19:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open" reason="script-set" reason_ttl="0"/><service name="tftp" method="table" conf="3"/><script id="tftp-enum" output="&#xa;  test.txt&#xa;"/></port>
+</ports>
+<times srtt="52801" rttvar="52801" to="264005"/>
+</host>
+<host starttime="1443714811" endtime="1443714857"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.237" addrtype="ipv4"/>
+<address addr="00:50:56:AF:11:51" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open" reason="script-set" reason_ttl="0"/><service name="tftp" method="table" conf="3"/><script id="tftp-enum" output="&#xa;  dialplan.xml&#xa;  merlin2.pcm&#xa;  OS79XX.TXT&#xa;  RINGLIST.DAT&#xa;  syncinfo.xml&#xa;  XMLDefault.cnf.xml&#xa;"/></port>
+</ports>
+<times srtt="53496" rttvar="53496" to="267480"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.239" addrtype="ipv4"/>
+<address addr="00:50:56:AF:60:4D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53602" rttvar="53602" to="268010"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.245" addrtype="ipv4"/>
+<address addr="00:50:56:AF:38:2C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52441" rttvar="52441" to="262205"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.247" addrtype="ipv4"/>
+<address addr="00:50:56:AF:44:41" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52669" rttvar="52669" to="263345"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.250" addrtype="ipv4"/>
+<address addr="00:50:56:AF:57:03" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53551" rttvar="53551" to="267755"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.251" addrtype="ipv4"/>
+<address addr="00:50:56:AF:3C:1E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52607" rttvar="52607" to="263035"/>
+</host>
+<host starttime="1443714811" endtime="1443714842"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.252" addrtype="ipv4"/>
+<address addr="00:50:56:AF:24:6C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="69"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="tftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52989" rttvar="52989" to="264945"/>
+</host>
+<runstats><finished time="1443714928" timestr="Thu Oct  1 11:55:28 2015" elapsed="117.86" summary="Nmap done at Thu Oct  1 11:55:28 2015; 41 IP addresses (41 hosts up) scanned in 117.86 seconds" exit="success"/><hosts up="41" down="0" total="41"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Oct  1 12:02:44 2015 as: nmap -&#45;script smb-enum-shares.nse -&#45;script-args smbdomain=domain,smbuser=user,smbpass=password -p 445 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Samba-enum-shares -->
+<nmaprun scanner="nmap" args="nmap -&#45;script smb-enum-shares.nse -&#45;script-args smbdomain=domain,smbuser=user,smbpass=password -p 445 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Samba-enum-shares" start="1443715364" startstr="Thu Oct  1 12:02:44 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1443715364" endtime="1443715546"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.201" addrtype="ipv4"/>
+<address addr="00:50:56:AF:25:EB" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53286" rttvar="40134" to="213822"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.202" addrtype="ipv4"/>
+<address addr="00:50:56:AF:22:47" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52831" rttvar="39731" to="211755"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.203" addrtype="ipv4"/>
+<address addr="00:50:56:AF:35:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52739" rttvar="52739" to="263695"/>
+</host>
+<host starttime="1443715364" endtime="1443715365"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.204" addrtype="ipv4"/>
+<address addr="00:50:56:AF:13:05" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="89254" rttvar="89254" to="446270"/>
+</host>
+<host starttime="1443715364" endtime="1443715573"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.205" addrtype="ipv4"/>
+<address addr="00:50:56:AF:28:1A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;"/></hostscript><times srtt="52498" rttvar="39382" to="210026"/>
+</host>
+<host starttime="1443715364" endtime="1443715574"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.206" addrtype="ipv4"/>
+<address addr="00:50:56:AF:70:5B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;"/></hostscript><times srtt="56407" rttvar="46641" to="242971"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.207" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4C:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52853" rttvar="52853" to="264265"/>
+</host>
+<host starttime="1443715364" endtime="1443715556"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.208" addrtype="ipv4"/>
+<address addr="00:50:56:AF:54:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  IPC$&#xa;    Type: STYPE_IPC_HIDDEN&#xa;    Comment: IPC Service (Samba Server Version 3.0.33-0.17.el4)&#xa;    Users: 1, Max: &lt;unlimited&gt;&#xa;    Path: C:\tmp&#xa;    Anonymous access: READ &lt;not a file share&gt;&#xa;"/></hostscript><times srtt="52471" rttvar="39362" to="209919"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.209" addrtype="ipv4"/>
+<address addr="00:50:56:AF:43:4B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52985" rttvar="39986" to="212929"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.210" addrtype="ipv4"/>
+<address addr="00:50:56:AF:10:A4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52724" rttvar="52724" to="263620"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.214" addrtype="ipv4"/>
+<address addr="00:50:56:AF:36:A8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53008" rttvar="40024" to="213104"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.215" addrtype="ipv4"/>
+<address addr="00:50:56:AF:68:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52672" rttvar="39554" to="210888"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.216" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0D:71" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53274" rttvar="40221" to="214158"/>
+</host>
+<host starttime="1443715364" endtime="1443715683"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.218" addrtype="ipv4"/>
+<address addr="00:50:56:AF:01:B8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;"/></hostscript><times srtt="59906" rttvar="53054" to="272122"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.219" addrtype="ipv4"/>
+<address addr="00:50:56:AF:67:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52748" rttvar="52748" to="263740"/>
+</host>
+<host starttime="1443715364" endtime="1443715686"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.220" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0E:3D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;  NETLOGON&#xa;    Anonymous access: &lt;none&gt;&#xa;"/></hostscript><times srtt="59762" rttvar="53074" to="272058"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.221" addrtype="ipv4"/>
+<address addr="00:50:56:AF:41:22" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53036" rttvar="53036" to="265180"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.222" addrtype="ipv4"/>
+<address addr="00:50:56:AF:6B:F6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="255"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53742" rttvar="40618" to="216214"/>
+</host>
+<host starttime="1443715364" endtime="1443715684"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.223" addrtype="ipv4"/>
+<address addr="00:50:56:AF:5C:EA" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;"/></hostscript><times srtt="53694" rttvar="40502" to="215702"/>
+</host>
+<host starttime="1443715364" endtime="1443715564"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.224" addrtype="ipv4"/>
+<address addr="00:50:56:AF:45:9F" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  IPC$&#xa;    Type: STYPE_IPC_HIDDEN&#xa;    Comment: IPC Service (ubuntu7 server (Samba, Ubuntu))&#xa;    Users: 1, Max: &lt;unlimited&gt;&#xa;    Path: C:\tmp&#xa;    Anonymous access: READ &lt;not a file share&gt;&#xa;  print$&#xa;    Type: STYPE_DISKTREE_HIDDEN&#xa;    Comment: Printer Drivers&#xa;    Users: 0, Max: &lt;unlimited&gt;&#xa;    Path: C:\var\lib\samba\printers&#xa;    Anonymous access: &lt;none&gt;&#xa;"/></hostscript><times srtt="52791" rttvar="39644" to="211367"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.225" addrtype="ipv4"/>
+<address addr="00:50:56:AF:21:59" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53050" rttvar="53050" to="265250"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.226" addrtype="ipv4"/>
+<address addr="00:50:56:AF:19:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53780" rttvar="53780" to="268900"/>
+</host>
+<host starttime="1443715364" endtime="1443715572"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.227" addrtype="ipv4"/>
+<address addr="00:50:56:AF:46:7E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;"/></hostscript><times srtt="53513" rttvar="40226" to="214417"/>
+</host>
+<host starttime="1443715364" endtime="1443715684"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.229" addrtype="ipv4"/>
+<address addr="00:50:56:AF:00:25" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;"/></hostscript><times srtt="53440" rttvar="40428" to="215152"/>
+</host>
+<host starttime="1443715364" endtime="1443715686"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.230" addrtype="ipv4"/>
+<address addr="00:50:56:AF:34:6A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;  USERS&#xa;    Anonymous access: &lt;none&gt;&#xa;"/></hostscript><times srtt="60198" rttvar="53200" to="272998"/>
+</host>
+<host starttime="1443715364" endtime="1443715685"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.231" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4D:4A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;"/></hostscript><times srtt="53549" rttvar="40637" to="216097"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.234" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4B:2A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53603" rttvar="40642" to="216171"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.235" addrtype="ipv4"/>
+<address addr="00:50:56:AF:75:18" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="host-prohibited" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="65678" rttvar="54224" to="282574"/>
+</host>
+<host starttime="1443715364" endtime="1443715568"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.236" addrtype="ipv4"/>
+<address addr="00:50:56:AF:71:9B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53577" rttvar="40490" to="215537"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.237" addrtype="ipv4"/>
+<address addr="00:50:56:AF:11:51" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53524" rttvar="40629" to="216040"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.238" addrtype="ipv4"/>
+<address addr="00:50:56:AF:62:7C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53574" rttvar="40583" to="215906"/>
+</host>
+<host starttime="1443715364" endtime="1443715365"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.239" addrtype="ipv4"/>
+<address addr="00:50:56:AF:60:4D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53422" rttvar="53422" to="267110"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.241" addrtype="ipv4"/>
+<address addr="00:50:56:AF:56:B4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="29507" rttvar="35130" to="170027"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.242" addrtype="ipv4"/>
+<address addr="00:50:56:AF:66:B7" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52647" rttvar="39524" to="210743"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.244" addrtype="ipv4"/>
+<address addr="00:50:56:AF:20:E6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52906" rttvar="39679" to="211622"/>
+</host>
+<host starttime="1443715364" endtime="1443715685"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.245" addrtype="ipv4"/>
+<address addr="00:50:56:AF:38:2C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-enum-shares" output="&#xa;  ERROR: Enumerating shares failed, guessing at common ones (NT_STATUS_ACCESS_DENIED)&#xa;  ADMIN$&#xa;    Anonymous access: &lt;none&gt;&#xa;  C$&#xa;    Anonymous access: &lt;none&gt;&#xa;  IPC$&#xa;    Anonymous access: READ&#xa;  PUBLIC&#xa;    Anonymous access: &lt;none&gt;&#xa;"/></hostscript><times srtt="60009" rttvar="53174" to="272705"/>
+</host>
+<host starttime="1443715364" endtime="1443715365"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.247" addrtype="ipv4"/>
+<address addr="00:50:56:AF:44:41" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53443" rttvar="53443" to="267215"/>
+</host>
+<host starttime="1443715364" endtime="1443715364"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.249" addrtype="ipv4"/>
+<address addr="00:50:56:AF:16:9D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53005" rttvar="39795" to="212185"/>
+</host>
+<host starttime="1443715364" endtime="1443715365"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.250" addrtype="ipv4"/>
+<address addr="00:50:56:AF:57:03" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53198" rttvar="53198" to="265990"/>
+</host>
+<host starttime="1443715364" endtime="1443715365"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.251" addrtype="ipv4"/>
+<address addr="00:50:56:AF:3C:1E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53158" rttvar="53158" to="265790"/>
+</host>
+<host starttime="1443715364" endtime="1443715365"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.252" addrtype="ipv4"/>
+<address addr="00:50:56:AF:24:6C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53319" rttvar="53319" to="266595"/>
+</host>
+<runstats><finished time="1443715686" timestr="Thu Oct  1 12:08:06 2015" elapsed="322.66" summary="Nmap done at Thu Oct  1 12:08:06 2015; 41 IP addresses (41 hosts up) scanned in 322.66 seconds" exit="success"/><hosts up="41" down="0" total="41"/>
+</runstats>
+</nmaprun>

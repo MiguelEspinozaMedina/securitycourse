@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Oct  1 12:08:29 2015 as: nmap -&#45;script smb-security-mode.nse -p 139,445 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Smb-security-mode -->
+<nmaprun scanner="nmap" args="nmap -&#45;script smb-security-mode.nse -p 139,445 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Smb-security-mode" start="1443715709" startstr="Thu Oct  1 12:08:29 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="139,445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1443715709" endtime="1443715712"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.201" addrtype="ipv4"/>
+<address addr="00:50:56:AF:25:EB" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="53724" rttvar="30516" to="175788"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.202" addrtype="ipv4"/>
+<address addr="00:50:56:AF:22:47" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52886" rttvar="30030" to="173006"/>
+</host>
+<host starttime="1443715709" endtime="1443715710"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.203" addrtype="ipv4"/>
+<address addr="00:50:56:AF:35:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52921" rttvar="52921" to="264605"/>
+</host>
+<host starttime="1443715709" endtime="1443715710"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.204" addrtype="ipv4"/>
+<address addr="00:50:56:AF:13:05" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52571" rttvar="52571" to="262855"/>
+</host>
+<host starttime="1443715709" endtime="1443715712"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.205" addrtype="ipv4"/>
+<address addr="00:50:56:AF:28:1A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="52817" rttvar="29987" to="172765"/>
+</host>
+<host starttime="1443715709" endtime="1443715712"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.206" addrtype="ipv4"/>
+<address addr="00:50:56:AF:70:5B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="88042" rttvar="61794" to="335218"/>
+</host>
+<host starttime="1443715709" endtime="1443715710"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.207" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4C:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52734" rttvar="52734" to="263670"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.208" addrtype="ipv4"/>
+<address addr="00:50:56:AF:54:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="52470" rttvar="29666" to="171134"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.209" addrtype="ipv4"/>
+<address addr="00:50:56:AF:43:4B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52777" rttvar="29878" to="172289"/>
+</host>
+<host starttime="1443715709" endtime="1443715710"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.210" addrtype="ipv4"/>
+<address addr="00:50:56:AF:10:A4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52630" rttvar="52630" to="263150"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.214" addrtype="ipv4"/>
+<address addr="00:50:56:AF:36:A8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52872" rttvar="30024" to="172968"/>
+</host>
+<host starttime="1443715709" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.215" addrtype="ipv4"/>
+<address addr="00:50:56:AF:68:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53136" rttvar="29990" to="173096"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.216" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0D:71" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53784" rttvar="30457" to="175612"/>
+</host>
+<host starttime="1443715709" endtime="1443715712"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.218" addrtype="ipv4"/>
+<address addr="00:50:56:AF:01:B8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="53092" rttvar="30129" to="173608"/>
+</host>
+<host starttime="1443715709" endtime="1443715710"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.219" addrtype="ipv4"/>
+<address addr="00:50:56:AF:67:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52695" rttvar="52695" to="263475"/>
+</host>
+<host starttime="1443715709" endtime="1443715712"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.220" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0E:3D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing required&#xa;"/></hostscript><times srtt="52870" rttvar="30074" to="173166"/>
+</host>
+<host starttime="1443715709" endtime="1443715710"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.221" addrtype="ipv4"/>
+<address addr="00:50:56:AF:41:22" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52822" rttvar="52822" to="264110"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.222" addrtype="ipv4"/>
+<address addr="00:50:56:AF:6B:F6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="255"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53085" rttvar="30145" to="173665"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.223" addrtype="ipv4"/>
+<address addr="00:50:56:AF:5C:EA" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="53236" rttvar="30187" to="173984"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.224" addrtype="ipv4"/>
+<address addr="00:50:56:AF:45:9F" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="52797" rttvar="30092" to="173165"/>
+</host>
+<host starttime="1443715709" endtime="1443715710"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.225" addrtype="ipv4"/>
+<address addr="00:50:56:AF:21:59" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52812" rttvar="52812" to="264060"/>
+</host>
+<host starttime="1443715709" endtime="1443715710"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.226" addrtype="ipv4"/>
+<address addr="00:50:56:AF:19:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53430" rttvar="53430" to="267150"/>
+</host>
+<host starttime="1443715709" endtime="1443715712"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.227" addrtype="ipv4"/>
+<address addr="00:50:56:AF:46:7E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="53166" rttvar="30330" to="174486"/>
+</host>
+<host starttime="1443715709" endtime="1443715713"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.229" addrtype="ipv4"/>
+<address addr="00:50:56:AF:00:25" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="53479" rttvar="30109" to="173915"/>
+</host>
+<host starttime="1443715709" endtime="1443715712"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.230" addrtype="ipv4"/>
+<address addr="00:50:56:AF:34:6A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="53345" rttvar="30352" to="174753"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.231" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4D:4A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="53065" rttvar="30075" to="173365"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.234" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4B:2A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53262" rttvar="30246" to="174246"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.235" addrtype="ipv4"/>
+<address addr="00:50:56:AF:75:18" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="host-prohibited" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="host-prohibited" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="54485" rttvar="32917" to="186153"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.236" addrtype="ipv4"/>
+<address addr="00:50:56:AF:71:9B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  Share-level authentication (dangerous)&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="53196" rttvar="30364" to="174652"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.237" addrtype="ipv4"/>
+<address addr="00:50:56:AF:11:51" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53260" rttvar="30377" to="174768"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.238" addrtype="ipv4"/>
+<address addr="00:50:56:AF:62:7C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53585" rttvar="30416" to="175249"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.239" addrtype="ipv4"/>
+<address addr="00:50:56:AF:60:4D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53244" rttvar="53244" to="266220"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.241" addrtype="ipv4"/>
+<address addr="00:50:56:AF:56:B4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="57869" rttvar="36760" to="204909"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.242" addrtype="ipv4"/>
+<address addr="00:50:56:AF:66:B7" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52658" rttvar="29805" to="171878"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.244" addrtype="ipv4"/>
+<address addr="00:50:56:AF:20:E6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52965" rttvar="30075" to="173265"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.245" addrtype="ipv4"/>
+<address addr="00:50:56:AF:38:2C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="53880" rttvar="30491" to="175844"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.247" addrtype="ipv4"/>
+<address addr="00:50:56:AF:44:41" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53907" rttvar="53907" to="269535"/>
+</host>
+<host starttime="1443715709" endtime="1443715709"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.249" addrtype="ipv4"/>
+<address addr="00:50:56:AF:16:9D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="69041" rttvar="46210" to="253881"/>
+</host>
+<host starttime="1443715709" endtime="1443715712"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.250" addrtype="ipv4"/>
+<address addr="00:50:56:AF:57:03" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-security-mode" output="&#xa;  Account that was used for smb scripts: guest&#xa;  User-level authentication&#xa;  SMB Security: Challenge/response passwords supported&#xa;  Message signing disabled (dangerous, but default)&#xa;"/></hostscript><times srtt="59858" rttvar="53214" to="272714"/>
+</host>
+<host starttime="1443715709" endtime="1443715710"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.251" addrtype="ipv4"/>
+<address addr="00:50:56:AF:3C:1E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52850" rttvar="52850" to="264250"/>
+</host>
+<host starttime="1443715709" endtime="1443715711"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.252" addrtype="ipv4"/>
+<address addr="00:50:56:AF:24:6C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53227" rttvar="53227" to="266135"/>
+</host>
+<runstats><finished time="1443715713" timestr="Thu Oct  1 12:08:33 2015" elapsed="4.04" summary="Nmap done at Thu Oct  1 12:08:33 2015; 41 IP addresses (41 hosts up) scanned in 4.04 seconds" exit="success"/><hosts up="41" down="0" total="41"/>
+</runstats>
+</nmaprun>

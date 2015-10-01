@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Oct  1 11:53:21 2015 as: nmap -sV -p 5800,5801,5802,5803,5900,5901,5902,5903 -&#45;open -&#45;script realvnc-auth-bypass.nse -iL results/ipList.txt -oA output/Lab_Vlan-nmap-sV-VNC-auth-bypass -->
+<nmaprun scanner="nmap" args="nmap -sV -p 5800,5801,5802,5803,5900,5901,5902,5903 -&#45;open -&#45;script realvnc-auth-bypass.nse -iL results/ipList.txt -oA output/Lab_Vlan-nmap-sV-VNC-auth-bypass" start="1443714801" startstr="Thu Oct  1 11:53:21 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="8" services="5800-5803,5900-5903"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1443714802" endtime="1443714810"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.227" addrtype="ipv4"/>
+<address addr="00:50:56:AF:46:7E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="6">
+<extrareasons reason="resets" count="6"/>
+</extraports>
+<port protocol="tcp" portid="5800"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="vnc-http" product="RealVNC" version="4.0" extrainfo="resolution: 400x250; VNC TCP port: 5900" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="5900"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="vnc" product="VNC" extrainfo="protocol 3.8" method="probed" conf="10"/></port>
+</ports>
+<times srtt="53412" rttvar="6279" to="100000"/>
+</host>
+<runstats><finished time="1443714810" timestr="Thu Oct  1 11:53:30 2015" elapsed="9.04" summary="Nmap done at Thu Oct  1 11:53:30 2015; 41 IP addresses (41 hosts up) scanned in 9.04 seconds" exit="success"/><hosts up="41" down="0" total="41"/>
+</runstats>
+</nmaprun>

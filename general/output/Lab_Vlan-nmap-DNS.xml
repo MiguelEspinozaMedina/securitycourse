@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Oct  1 11:55:28 2015 as: nmap -p T:53,U:53 -&#45;open -iL results/ipList.txt -oA output/Lab_Vlan-nmap-DNS -->
+<nmaprun scanner="nmap" args="nmap -p T:53,U:53 -&#45;open -iL results/ipList.txt -oA output/Lab_Vlan-nmap-DNS" start="1443714928" startstr="Thu Oct  1 11:55:28 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="53"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1443714928" endtime="1443714929"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.220" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0E:3D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="domain" method="table" conf="3"/></port>
+</ports>
+<times srtt="59152" rttvar="52625" to="269652"/>
+</host>
+<host starttime="1443714928" endtime="1443714929"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.221" addrtype="ipv4"/>
+<address addr="00:50:56:AF:41:22" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="domain" method="table" conf="3"/></port>
+</ports>
+<times srtt="59268" rttvar="52971" to="271152"/>
+</host>
+<runstats><finished time="1443714930" timestr="Thu Oct  1 11:55:30 2015" elapsed="1.35" summary="Nmap done at Thu Oct  1 11:55:30 2015; 41 IP addresses (41 hosts up) scanned in 1.35 seconds" exit="success"/><hosts up="41" down="0" total="41"/>
+</runstats>
+</nmaprun>

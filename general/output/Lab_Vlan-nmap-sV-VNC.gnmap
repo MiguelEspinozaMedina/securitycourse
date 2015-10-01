@@ -1,0 +1,4 @@
+# Nmap 6.47 scan initiated Thu Oct  1 11:53:12 2015 as: nmap -sV -p 5800,5801,5802,5803,5900,5901,5902,5903 --open --script vnc-info.nse -iL results/ipList.txt -oA output/Lab_Vlan-nmap-sV-VNC
+Host: 192.168.43.227 ()	Status: Up
+Host: 192.168.43.227 ()	Ports: 5800/open/tcp//vnc-http//RealVNC 4.0 (resolution: 400x250; VNC TCP port: 5900)/, 5900/open/tcp//vnc//VNC (protocol 3.8)/	Ignored State: closed (6)
+# Nmap done at Thu Oct  1 11:53:21 2015 -- 41 IP addresses (41 hosts up) scanned in 9.17 seconds

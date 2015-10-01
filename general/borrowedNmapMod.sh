@@ -1,6 +1,6 @@
 #!/bin/bash
 location='Lab_Vlan'
-subnet='192.168.43.224'
+subnet='192.168.43.200-254'
 ipList='results/ipList.txt'
 
 # Creates the output and the results directory if they need to be created
@@ -33,10 +33,12 @@ declare -a nmapSwitches=('-sV -p 20,21,22 --open --script ftp-anon.nse'
             '-p 69 -sU --open --script tftp-enum.nse'
             '-p T:53,U:53 --open'
             '-p 161 -sU --script snmp-brute'
-            '--script smb-os-discovery.nse -p 445'
+            '--script smb-os-discovery.nse -p 139,445'
             '--script smb-check-vulns -p 139,445 --script-args unsafe=1'
             '--script smb-enum-shares.nse --script-args smbdomain=domain,smbuser=user,smbpass=password -p 445'
-	    '--script smtp-enum-users.nse');
+	    '--script smtp-enum-users.nse -p 25,465,587'
+	    '--script smb-security-mode.nse -p 139,445'
+	    '--script ftp-vuln-cve2010-4221.nse -p 21');
 declare -a typeOfScan=('nmap-sV-FTP' 
             'nmap-sV-VNC'
             'nmap-sV-VNC-auth-bypass'
@@ -46,7 +48,9 @@ declare -a typeOfScan=('nmap-sV-FTP'
             'nmap-Samba-445'
             'nmap-Samba-check-vulns'
             'nmap-Samba-enum-shares'
-            'nmap-Smtp-enum-users');
+            'nmap-Smtp-enum-users'
+	    'nmap-Smb-security-mode'
+	    'nmap-Ftp-vuln-cve2010-4221');
 
 echo "The nmap scripts scans started" >> elapsedTime.txt
 date >> elapsedTime.txt

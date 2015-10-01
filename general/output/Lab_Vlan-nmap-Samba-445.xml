@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Oct  1 11:55:34 2015 as: nmap -&#45;script smb-os-discovery.nse -p 139,445 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Samba-445 -->
+<nmaprun scanner="nmap" args="nmap -&#45;script smb-os-discovery.nse -p 139,445 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Samba-445" start="1443714934" startstr="Thu Oct  1 11:55:34 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="139,445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1443714934" endtime="1443715045"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.201" addrtype="ipv4"/>
+<address addr="00:50:56:AF:25:EB" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows XP (Windows 2000 LAN Manager)&#xa;  OS CPE: cpe:/o:microsoft:windows_xp::-&#xa;  NetBIOS computer name: ALICE&#xa;  Workgroup: THINC&#xa;  System time: 2015-10-01T16:55:39+01:00&#xa;"><elem key="os">Windows 5.1</elem>
+<elem key="lanmanager">Windows 2000 LAN Manager</elem>
+<elem key="domain">THINC\x00</elem>
+<elem key="server">ALICE\x00</elem>
+<elem key="date">2015-10-01T16:55:39+01:00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_xp::-</elem>
+</script></hostscript><times srtt="53560" rttvar="30524" to="175656"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.202" addrtype="ipv4"/>
+<address addr="00:50:56:AF:22:47" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53954" rttvar="30931" to="177678"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.203" addrtype="ipv4"/>
+<address addr="00:50:56:AF:35:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="54025" rttvar="54025" to="270125"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.204" addrtype="ipv4"/>
+<address addr="00:50:56:AF:13:05" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="14566" rttvar="14566" to="100000"/>
+</host>
+<host starttime="1443714934" endtime="1443714996"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.205" addrtype="ipv4"/>
+<address addr="00:50:56:AF:28:1A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows 2000 (Windows 2000 LAN Manager)&#xa;  OS CPE: cpe:/o:microsoft:windows_2000::-&#xa;  Computer name: oracle&#xa;  NetBIOS computer name: ORACLE&#xa;  Domain name: acme.local&#xa;  FQDN: oracle.acme.local&#xa;  System time: 2015-10-01T17:55:39+02:00&#xa;"><elem key="os">Windows 5.0</elem>
+<elem key="lanmanager">Windows 2000 LAN Manager</elem>
+<elem key="server">ORACLE\x00</elem>
+<elem key="date">2015-10-01T17:55:39+02:00</elem>
+<elem key="fqdn">oracle.acme.local</elem>
+<elem key="domain_dns">acme.local</elem>
+<elem key="workgroup">ACME\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_2000::-</elem>
+</script></hostscript><times srtt="53954" rttvar="30915" to="177614"/>
+</host>
+<host starttime="1443714934" endtime="1443715046"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.206" addrtype="ipv4"/>
+<address addr="00:50:56:AF:70:5B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows 2000 (Windows 2000 LAN Manager)&#xa;  OS CPE: cpe:/o:microsoft:windows_2000::-&#xa;  Computer name: oracle2&#xa;  NetBIOS computer name: ORACLE2&#xa;  Domain name: acme.local&#xa;  FQDN: oracle2.acme.local&#xa;  System time: 2015-10-01T17:55:40+02:00&#xa;"><elem key="os">Windows 5.0</elem>
+<elem key="lanmanager">Windows 2000 LAN Manager</elem>
+<elem key="server">ORACLE2\x00</elem>
+<elem key="date">2015-10-01T17:55:40+02:00</elem>
+<elem key="fqdn">oracle2.acme.local</elem>
+<elem key="domain_dns">acme.local</elem>
+<elem key="workgroup">ACME\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_2000::-</elem>
+</script></hostscript><times srtt="54014" rttvar="31353" to="179426"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.207" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4C:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53852" rttvar="53852" to="269260"/>
+</host>
+<host starttime="1443714934" endtime="1443715046"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.208" addrtype="ipv4"/>
+<address addr="00:50:56:AF:54:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Unix (Samba 3.0.33-0.17.el4)&#xa;  Computer name: phoenix&#xa;  NetBIOS computer name: &#xa;  Domain name: &#xa;  FQDN: phoenix&#xa;  System time: 2015-10-01T03:16:18-04:00&#xa;"><elem key="os">Unix</elem>
+<elem key="lanmanager">Samba 3.0.33-0.17.el4</elem>
+<elem key="server"></elem>
+<elem key="date">2015-10-01T03:16:18-04:00</elem>
+<elem key="fqdn">phoenix</elem>
+<elem key="domain_dns"></elem>
+<elem key="workgroup">MYGROUP\x00</elem>
+</script></hostscript><times srtt="52585" rttvar="29803" to="171797"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.209" addrtype="ipv4"/>
+<address addr="00:50:56:AF:43:4B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53230" rttvar="30251" to="174234"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.210" addrtype="ipv4"/>
+<address addr="00:50:56:AF:10:A4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53267" rttvar="53267" to="266335"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.214" addrtype="ipv4"/>
+<address addr="00:50:56:AF:36:A8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53303" rttvar="30244" to="174279"/>
+</host>
+<host starttime="1443714934" endtime="1443714939"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.215" addrtype="ipv4"/>
+<address addr="00:50:56:AF:68:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52834" rttvar="29885" to="172374"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.216" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0D:71" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53519" rttvar="30853" to="176931"/>
+</host>
+<host starttime="1443714934" endtime="1443715047"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.218" addrtype="ipv4"/>
+<address addr="00:50:56:AF:01:B8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)&#xa;  OS CPE: cpe:/o:microsoft:windows_7::sp1:professional&#xa;  Computer name: win7&#xa;  NetBIOS computer name: WIN7&#xa;  Domain name: thinc.local&#xa;  Forest name: thinc.local&#xa;  FQDN: win7.thinc.local&#xa;  System time: 2013-12-27T23:37:19-08:00&#xa;"><elem key="os">Windows 7 Professional 7601 Service Pack 1</elem>
+<elem key="lanmanager">Windows 7 Professional 6.1</elem>
+<elem key="server">WIN7\x00</elem>
+<elem key="date">2013-12-27T23:37:19-08:00</elem>
+<elem key="fqdn">win7.thinc.local</elem>
+<elem key="domain_dns">thinc.local</elem>
+<elem key="forest_dns">thinc.local</elem>
+<elem key="workgroup">THINC\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_7::sp1:professional</elem>
+</script></hostscript><times srtt="58473" rttvar="41286" to="223617"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.219" addrtype="ipv4"/>
+<address addr="00:50:56:AF:67:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52365" rttvar="52365" to="261825"/>
+</host>
+<host starttime="1443714934" endtime="1443715046"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.220" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0E:3D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows Server 2008 R2 Standard 7601 Service Pack 1 (Windows Server 2008 R2 Standard 6.1)&#xa;  OS CPE: cpe:/o:microsoft:windows_server_2008::sp1&#xa;  Computer name: master&#xa;  NetBIOS computer name: MASTER&#xa;  Domain name: thinc.local&#xa;  Forest name: thinc.local&#xa;  FQDN: master.thinc.local&#xa;  System time: 2013-12-27T23:37:13-08:00&#xa;"><elem key="os">Windows Server 2008 R2 Standard 7601 Service Pack 1</elem>
+<elem key="lanmanager">Windows Server 2008 R2 Standard 6.1</elem>
+<elem key="server">MASTER\x00</elem>
+<elem key="date">2013-12-27T23:37:13-08:00</elem>
+<elem key="fqdn">master.thinc.local</elem>
+<elem key="domain_dns">thinc.local</elem>
+<elem key="forest_dns">thinc.local</elem>
+<elem key="workgroup">THINC\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_server_2008::sp1</elem>
+</script></hostscript><times srtt="52947" rttvar="30023" to="173039"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.221" addrtype="ipv4"/>
+<address addr="00:50:56:AF:41:22" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52597" rttvar="52597" to="262985"/>
+</host>
+<host starttime="1443714934" endtime="1443714939"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.222" addrtype="ipv4"/>
+<address addr="00:50:56:AF:6B:F6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="255"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52782" rttvar="29834" to="172118"/>
+</host>
+<host starttime="1443714934" endtime="1443715046"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.223" addrtype="ipv4"/>
+<address addr="00:50:56:AF:5C:EA" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows Server (R) 2008 Standard 6001 Service Pack 1 (Windows Server (R) 2008 Standard 6.0)&#xa;  OS CPE: cpe:/o:microsoft:windows_server_2008::sp1&#xa;  Computer name: Jeff&#xa;  NetBIOS computer name: JEFF&#xa;  Workgroup: WORKGROUP&#xa;  System time: 2015-10-01T08:55:39-07:00&#xa;"><elem key="os">Windows Server (R) 2008 Standard 6001 Service Pack 1</elem>
+<elem key="lanmanager">Windows Server (R) 2008 Standard 6.0</elem>
+<elem key="server">JEFF\x00</elem>
+<elem key="date">2015-10-01T08:55:39-07:00</elem>
+<elem key="fqdn">Jeff</elem>
+<elem key="domain_dns">Jeff</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_server_2008::sp1</elem>
+</script></hostscript><times srtt="52977" rttvar="29868" to="172449"/>
+</host>
+<host starttime="1443714934" endtime="1443715047"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.224" addrtype="ipv4"/>
+<address addr="00:50:56:AF:45:9F" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Unix (Samba 3.0.26a)&#xa;  NetBIOS computer name: &#xa;  Workgroup: MSHOME&#xa;  System time: 2015-10-01T11:55:49-04:00&#xa;"><elem key="os">Unix</elem>
+<elem key="lanmanager">Samba 3.0.26a</elem>
+<elem key="server"></elem>
+<elem key="date">2015-10-01T11:55:49-04:00</elem>
+<elem key="fqdn"></elem>
+<elem key="domain_dns"></elem>
+<elem key="workgroup">MSHOME\x00</elem>
+</script></hostscript><times srtt="52662" rttvar="29730" to="171582"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.225" addrtype="ipv4"/>
+<address addr="00:50:56:AF:21:59" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="52686" rttvar="52686" to="263430"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.226" addrtype="ipv4"/>
+<address addr="00:50:56:AF:19:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53986" rttvar="53986" to="269930"/>
+</host>
+<host starttime="1443714934" endtime="1443715046"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.227" addrtype="ipv4"/>
+<address addr="00:50:56:AF:46:7E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows 2000 (Windows 2000 LAN Manager)&#xa;  OS CPE: cpe:/o:microsoft:windows_2000::-&#xa;  Computer name: srv2&#xa;  NetBIOS computer name: SRV2&#xa;  Workgroup: WORKGROUP&#xa;  System time: 2015-10-01T17:55:39+02:00&#xa;"><elem key="os">Windows 5.0</elem>
+<elem key="lanmanager">Windows 2000 LAN Manager</elem>
+<elem key="server">SRV2\x00</elem>
+<elem key="date">2015-10-01T17:55:39+02:00</elem>
+<elem key="fqdn">srv2.acme.local</elem>
+<elem key="domain_dns">srv2.acme.local</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_2000::-</elem>
+</script></hostscript><times srtt="53474" rttvar="30234" to="174410"/>
+</host>
+<host starttime="1443714934" endtime="1443715046"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.229" addrtype="ipv4"/>
+<address addr="00:50:56:AF:00:25" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows Server 2003 3790 Service Pack 1 (Windows Server 2003 5.2)&#xa;  OS CPE: cpe:/o:microsoft:windows_server_2003::sp1&#xa;  Computer name: thincmail&#xa;  NetBIOS computer name: THINCMAIL&#xa;  Domain name: thinc.local&#xa;  Forest name: thinc.local&#xa;  FQDN: thincmail.thinc.local&#xa;  System time: 2015-10-01T10:55:37-05:00&#xa;"><elem key="os">Windows Server 2003 3790 Service Pack 1</elem>
+<elem key="lanmanager">Windows Server 2003 5.2</elem>
+<elem key="server">THINCMAIL\x00</elem>
+<elem key="date">2015-10-01T10:55:37-05:00</elem>
+<elem key="fqdn">thincmail.thinc.local</elem>
+<elem key="domain_dns">thinc.local</elem>
+<elem key="forest_dns">thinc.local</elem>
+<elem key="workgroup">THINC\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_server_2003::sp1</elem>
+</script></hostscript><times srtt="53487" rttvar="30143" to="174059"/>
+</host>
+<host starttime="1443714934" endtime="1443715047"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.230" addrtype="ipv4"/>
+<address addr="00:50:56:AF:34:6A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows 7 Ultimate N 7600 (Windows 7 Ultimate N 6.1)&#xa;  OS CPE: cpe:/o:microsoft:windows_7::-&#xa;  Computer name: kevin-PC&#xa;  NetBIOS computer name: KEVIN-PC&#xa;  Workgroup: WORKGROUP&#xa;  System time: 2015-10-01T08:55:37-07:00&#xa;"><elem key="os">Windows 7 Ultimate N 7600</elem>
+<elem key="lanmanager">Windows 7 Ultimate N 6.1</elem>
+<elem key="server">KEVIN-PC\x00</elem>
+<elem key="date">2015-10-01T08:55:37-07:00</elem>
+<elem key="fqdn">kevin-PC</elem>
+<elem key="domain_dns">kevin-PC</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_7::-</elem>
+</script></hostscript><times srtt="53048" rttvar="29991" to="173012"/>
+</host>
+<host starttime="1443714934" endtime="1443715047"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.231" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4D:4A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows Server 2003 3790 Service Pack 1 (Windows Server 2003 5.2)&#xa;  OS CPE: cpe:/o:microsoft:windows_server_2003::sp1&#xa;  Computer name: ralph&#xa;  NetBIOS computer name: RALPH&#xa;  Workgroup: THINC.LOCAL&#xa;  System time: 2015-10-01T10:55:38-05:00&#xa;"><elem key="os">Windows Server 2003 3790 Service Pack 1</elem>
+<elem key="lanmanager">Windows Server 2003 5.2</elem>
+<elem key="server">RALPH\x00</elem>
+<elem key="date">2015-10-01T10:55:38-05:00</elem>
+<elem key="fqdn">ralph</elem>
+<elem key="domain_dns">ralph</elem>
+<elem key="workgroup">THINC.LOCAL\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_server_2003::sp1</elem>
+</script></hostscript><times srtt="53447" rttvar="30307" to="174675"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.234" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4B:2A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53490" rttvar="30243" to="174462"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.235" addrtype="ipv4"/>
+<address addr="00:50:56:AF:75:18" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="host-prohibited" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="host-prohibited" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="24477" rttvar="40978" to="188389"/>
+</host>
+<host starttime="1443714934" endtime="1443715046"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.236" addrtype="ipv4"/>
+<address addr="00:50:56:AF:71:9B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Unix (Samba 3.0.24)&#xa;  NetBIOS computer name: &#xa;  Workgroup: BOB&#xa;  System time: 2015-10-01T11:55:28-04:00&#xa;"><elem key="os">Unix</elem>
+<elem key="lanmanager">Samba 3.0.24</elem>
+<elem key="domain">BOB\x00</elem>
+<elem key="server"></elem>
+<elem key="date">2015-10-01T11:55:28-04:00</elem>
+</script></hostscript><times srtt="53528" rttvar="30186" to="174272"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.237" addrtype="ipv4"/>
+<address addr="00:50:56:AF:11:51" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53424" rttvar="30272" to="174512"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.238" addrtype="ipv4"/>
+<address addr="00:50:56:AF:62:7C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53446" rttvar="30603" to="175858"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.239" addrtype="ipv4"/>
+<address addr="00:50:56:AF:60:4D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53585" rttvar="53585" to="267925"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.241" addrtype="ipv4"/>
+<address addr="00:50:56:AF:56:B4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="68034" rttvar="46799" to="255230"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.242" addrtype="ipv4"/>
+<address addr="00:50:56:AF:66:B7" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53636" rttvar="30692" to="176404"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.244" addrtype="ipv4"/>
+<address addr="00:50:56:AF:20:E6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53388" rttvar="22981" to="145312"/>
+</host>
+<host starttime="1443714934" endtime="1443715046"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.245" addrtype="ipv4"/>
+<address addr="00:50:56:AF:38:2C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<hostscript><script id="smb-os-discovery" output="&#xa;  OS: Windows Server (R) 2008 Standard 6001 Service Pack 1 (Windows Server (R) 2008 Standard 6.0)&#xa;  OS CPE: cpe:/o:microsoft:windows_server_2008::sp1&#xa;  Computer name: HELPDESK&#xa;  NetBIOS computer name: HELPDESK&#xa;  Workgroup: WORKGROUP&#xa;  System time: 2015-10-01T08:55:35-07:00&#xa;"><elem key="os">Windows Server (R) 2008 Standard 6001 Service Pack 1</elem>
+<elem key="lanmanager">Windows Server (R) 2008 Standard 6.0</elem>
+<elem key="server">HELPDESK\x00</elem>
+<elem key="date">2015-10-01T08:55:35-07:00</elem>
+<elem key="fqdn">HELPDESK</elem>
+<elem key="domain_dns">HELPDESK</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_server_2008::sp1</elem>
+</script></hostscript><times srtt="58503" rttvar="41394" to="224079"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.247" addrtype="ipv4"/>
+<address addr="00:50:56:AF:44:41" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53064" rttvar="53064" to="265320"/>
+</host>
+<host starttime="1443714934" endtime="1443714935"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.249" addrtype="ipv4"/>
+<address addr="00:50:56:AF:16:9D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="closed" reason="reset" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="26844" rttvar="24776" to="125948"/>
+</host>
+<host starttime="1443714934" endtime="1443714996"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.250" addrtype="ipv4"/>
+<address addr="00:50:56:AF:57:03" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="59587" rttvar="53026" to="271691"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.251" addrtype="ipv4"/>
+<address addr="00:50:56:AF:3C:1E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53351" rttvar="53351" to="266755"/>
+</host>
+<host starttime="1443714934" endtime="1443714936"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.252" addrtype="ipv4"/>
+<address addr="00:50:56:AF:24:6C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53401" rttvar="53401" to="267005"/>
+</host>
+<runstats><finished time="1443715047" timestr="Thu Oct  1 11:57:27 2015" elapsed="112.71" summary="Nmap done at Thu Oct  1 11:57:27 2015; 41 IP addresses (41 hosts up) scanned in 112.71 seconds" exit="success"/><hosts up="41" down="0" total="41"/>
+</runstats>
+</nmaprun>

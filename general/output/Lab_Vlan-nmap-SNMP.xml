@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 6.47 scan initiated Thu Oct  1 11:55:30 2015 as: nmap -p 161 -sU -&#45;script snmp-brute -iL results/ipList.txt -oA output/Lab_Vlan-nmap-SNMP -->
+<nmaprun scanner="nmap" args="nmap -p 161 -sU -&#45;script snmp-brute -iL results/ipList.txt -oA output/Lab_Vlan-nmap-SNMP" start="1443714930" startstr="Thu Oct  1 11:55:30 2015" version="6.47" xmloutputversion="1.04">
+<scaninfo type="udp" protocol="udp" numservices="1" services="161"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.201" addrtype="ipv4"/>
+<address addr="00:50:56:AF:25:EB" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52844" rttvar="39698" to="211636"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.202" addrtype="ipv4"/>
+<address addr="00:50:56:AF:22:47" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52905" rttvar="39755" to="211925"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.203" addrtype="ipv4"/>
+<address addr="00:50:56:AF:35:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/><script id="snmp-brute" output="&#xa;  public - Valid credentials&#xa;"/></port>
+</ports>
+<times srtt="52609" rttvar="52609" to="263045"/>
+</host>
+<host starttime="1443714930" endtime="1443714934"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.204" addrtype="ipv4"/>
+<address addr="00:50:56:AF:13:05" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/><script id="snmp-brute" output="&#xa;  public - Valid credentials&#xa;"/></port>
+</ports>
+<times srtt="93198" rttvar="93198" to="465990"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.205" addrtype="ipv4"/>
+<address addr="00:50:56:AF:28:1A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52877" rttvar="39869" to="212353"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.206" addrtype="ipv4"/>
+<address addr="00:50:56:AF:70:5B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="97537" rttvar="81085" to="421877"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.207" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4C:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52750" rttvar="52750" to="263750"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.208" addrtype="ipv4"/>
+<address addr="00:50:56:AF:54:75" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="filtered" reason="host-prohibited" reason_ttl="255"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52240" rttvar="39195" to="209020"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.209" addrtype="ipv4"/>
+<address addr="00:50:56:AF:43:4B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="255"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52522" rttvar="39418" to="210194"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.210" addrtype="ipv4"/>
+<address addr="00:50:56:AF:10:A4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52542" rttvar="52542" to="262710"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.214" addrtype="ipv4"/>
+<address addr="00:50:56:AF:36:A8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52410" rttvar="39388" to="209962"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.215" addrtype="ipv4"/>
+<address addr="00:50:56:AF:68:E8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open" reason="udp-response" reason_ttl="64"/><service name="snmp" method="table" conf="3"/><script id="snmp-brute" output="&#xa;  public - Valid credentials&#xa;"/></port>
+</ports>
+<times srtt="52733" rttvar="39570" to="211013"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.216" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0D:71" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53515" rttvar="40247" to="214503"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.218" addrtype="ipv4"/>
+<address addr="00:50:56:AF:01:B8" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53130" rttvar="53130" to="265650"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.219" addrtype="ipv4"/>
+<address addr="00:50:56:AF:67:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53661" rttvar="53661" to="268305"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.220" addrtype="ipv4"/>
+<address addr="00:50:56:AF:0E:3D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53761" rttvar="40768" to="216833"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.221" addrtype="ipv4"/>
+<address addr="00:50:56:AF:41:22" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53843" rttvar="53843" to="269215"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.222" addrtype="ipv4"/>
+<address addr="00:50:56:AF:6B:F6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open" reason="udp-response" reason_ttl="64"/><service name="snmp" method="table" conf="3"/><script id="snmp-brute" output="&#xa;  public - Valid credentials&#xa;"/></port>
+</ports>
+<times srtt="53659" rttvar="40461" to="215503"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.223" addrtype="ipv4"/>
+<address addr="00:50:56:AF:5C:EA" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53477" rttvar="40505" to="215497"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.224" addrtype="ipv4"/>
+<address addr="00:50:56:AF:45:9F" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53365" rttvar="40368" to="214837"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.225" addrtype="ipv4"/>
+<address addr="00:50:56:AF:21:59" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53417" rttvar="53417" to="267085"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.226" addrtype="ipv4"/>
+<address addr="00:50:56:AF:19:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53364" rttvar="53364" to="266820"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.227" addrtype="ipv4"/>
+<address addr="00:50:56:AF:46:7E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/><script id="snmp-brute" output="&#xa;  public - Valid credentials&#xa;"/></port>
+</ports>
+<times srtt="53213" rttvar="53213" to="266065"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.229" addrtype="ipv4"/>
+<address addr="00:50:56:AF:00:25" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53064" rttvar="39976" to="212968"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.230" addrtype="ipv4"/>
+<address addr="00:50:56:AF:34:6A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52967" rttvar="39823" to="212259"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.231" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4D:4A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="128"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52997" rttvar="39828" to="212309"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.234" addrtype="ipv4"/>
+<address addr="00:50:56:AF:4B:2A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53031" rttvar="39808" to="212263"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.235" addrtype="ipv4"/>
+<address addr="00:50:56:AF:75:18" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="filtered" reason="host-prohibited" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="57490" rttvar="48716" to="252354"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.236" addrtype="ipv4"/>
+<address addr="00:50:56:AF:71:9B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53174" rttvar="39949" to="212970"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.237" addrtype="ipv4"/>
+<address addr="00:50:56:AF:11:51" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53278" rttvar="40150" to="213878"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.238" addrtype="ipv4"/>
+<address addr="00:50:56:AF:62:7C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53354" rttvar="40181" to="214078"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.239" addrtype="ipv4"/>
+<address addr="00:50:56:AF:60:4D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52613" rttvar="52613" to="263065"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.241" addrtype="ipv4"/>
+<address addr="00:50:56:AF:56:B4" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="7713" rttvar="16676" to="100000"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.242" addrtype="ipv4"/>
+<address addr="00:50:56:AF:66:B7" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53385" rttvar="40197" to="214173"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.244" addrtype="ipv4"/>
+<address addr="00:50:56:AF:20:E6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53489" rttvar="40305" to="214709"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.245" addrtype="ipv4"/>
+<address addr="00:50:56:AF:38:2C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52710" rttvar="52710" to="263550"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.247" addrtype="ipv4"/>
+<address addr="00:50:56:AF:44:41" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52712" rttvar="52712" to="263560"/>
+</host>
+<host starttime="1443714930" endtime="1443714930"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.249" addrtype="ipv4"/>
+<address addr="00:50:56:AF:16:9D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="closed" reason="port-unreach" reason_ttl="64"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="65614" rttvar="54057" to="281842"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.250" addrtype="ipv4"/>
+<address addr="00:50:56:AF:57:03" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="53563" rttvar="53563" to="267815"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.251" addrtype="ipv4"/>
+<address addr="00:50:56:AF:3C:1E" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52717" rttvar="52717" to="263585"/>
+</host>
+<host starttime="1443714930" endtime="1443714933"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.252" addrtype="ipv4"/>
+<address addr="00:50:56:AF:24:6C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open|filtered" reason="no-response" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="52733" rttvar="52733" to="263665"/>
+</host>
+<runstats><finished time="1443714934" timestr="Thu Oct  1 11:55:34 2015" elapsed="4.49" summary="Nmap done at Thu Oct  1 11:55:34 2015; 41 IP addresses (41 hosts up) scanned in 4.49 seconds" exit="success"/><hosts up="41" down="0" total="41"/>
+</runstats>
+</nmaprun>

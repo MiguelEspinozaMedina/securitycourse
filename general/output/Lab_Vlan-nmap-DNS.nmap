@@ -1,0 +1,14 @@
+# Nmap 6.47 scan initiated Thu Oct  1 11:55:28 2015 as: nmap -p T:53,U:53 --open -iL results/ipList.txt -oA output/Lab_Vlan-nmap-DNS
+Nmap scan report for 192.168.43.220
+Host is up (0.059s latency).
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 00:50:56:AF:0E:3D (VMware)
+
+Nmap scan report for 192.168.43.221
+Host is up (0.059s latency).
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 00:50:56:AF:41:22 (VMware)
+
+# Nmap done at Thu Oct  1 11:55:30 2015 -- 41 IP addresses (41 hosts up) scanned in 1.35 seconds
