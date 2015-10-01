@@ -8,13 +8,19 @@
 # Scan with nbtscan and enum4linux for the differences found in windows versions.
 
 function nmapSN
-{
+{	
+	date >> elapsedTime.txt
+	echo "start nmap -sS scan" >> elapsedTime.txt
 	win="Microsoft"
         nmap -v -sS 192.168.$1.200-254 -oG NMAPsn-subnet$1.txt
         node=("$(grep Up NMAPsn-subnet$1.txt | cut -d " " -f2 > NMAPsn-subnetOut$1.txt)")
         rest=("$(cat NMAPsn-subnetOut$1.txt)")
+	date >> elapsedTime.txt
+	echo "stop nmap -sS scan"
 	for addr in $rest
         do
+		date >> elapsedTime.txt
+		echo "stop nmap -sS scan" >> elapsedTime.txt
                 result="$(nmap -O -v $addr | grep "Running" | cut -d " " -f4)"
                 if [ $win = $result ];
                 then
@@ -24,7 +30,9 @@ function nmapSN
 			echo "$addr may be Linux OS"
 			echo $addr >> srv.txt
 		fi
+		date >> elapsedTime.txt
 	done
+	echo "Done checking Windows OS" >> elapsedTime.txt
 	while read ip
 	do
                 nmap -v -p 21 --script=ftp-anon.nse $ip
@@ -38,6 +46,7 @@ function nmapSN
 		enum4linux -a $ip
 		echo "Done enum4linux check"
 	done < srv.txt
+	echo "done checking various nmap scripts" >> elapsedTime.txt
 } >> FinalOutWinFTP.txt 
 #nmapSN 2
 nmapSN 43
