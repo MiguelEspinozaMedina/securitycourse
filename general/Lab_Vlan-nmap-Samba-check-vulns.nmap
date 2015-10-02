@@ -1,0 +1,435 @@
+# Nmap 6.47 scan initiated Thu Oct  1 11:57:27 2015 as: nmap --script smb-check-vulns -p 139,445 --script-args unsafe=1 -iL results/ipList.txt -oA output/Lab_Vlan-nmap-Samba-check-vulns
+Nmap scan report for 192.168.43.201
+Host is up (0.054s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:25:EB (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: Likely CLEAN
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.202
+Host is up (0.053s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:22:47 (VMware)
+
+Nmap scan report for 192.168.43.203
+Host is up (0.054s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:35:E8 (VMware)
+
+Nmap scan report for 192.168.43.204
+Host is up (0.016s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:13:05 (VMware)
+
+Nmap scan report for 192.168.43.205
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:28:1A (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   MS08-067: VULNERABLE
+|   Conficker: Likely CLEAN
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.206
+Host is up (0.057s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:70:5B (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   MS08-067: VULNERABLE
+|   Conficker: Likely CLEAN
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.207
+Host is up (0.053s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:4C:75 (VMware)
+
+Nmap scan report for 192.168.43.208
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:54:75 (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).
+|   |  If you know the remote system is Windows, try rebooting it and scanning
+|   |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)
+|   regsvc DoS: VULNERABLE
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.209
+Host is up (0.053s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:43:4B (VMware)
+
+Nmap scan report for 192.168.43.210
+Host is up (0.053s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:10:A4 (VMware)
+
+Nmap scan report for 192.168.43.214
+Host is up (0.053s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:36:A8 (VMware)
+
+Nmap scan report for 192.168.43.215
+Host is up (0.053s latency).
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:68:E8 (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: UNKNOWN; got error SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [14]
+|   SMBv2 DoS (CVE-2009-3103): VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.216
+Host is up (0.054s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:0D:71 (VMware)
+
+Nmap scan report for 192.168.43.218
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:01:B8 (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: Likely CLEAN; access was denied.
+|   |  If you have a login, try using --script-args=smbuser=xxx,smbpass=yyy
+|   |  (replace xxx and yyy with your username and password). Also try
+|   |_ smbdomain=zzz if you know the domain. (Error NT_STATUS_ACCESS_DENIED)
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.219
+Host is up (0.052s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:67:BE (VMware)
+
+Nmap scan report for 192.168.43.220
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:0E:3D (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: Likely CLEAN; access was denied.
+|   |  If you have a login, try using --script-args=smbuser=xxx,smbpass=yyy
+|   |  (replace xxx and yyy with your username and password). Also try
+|   |_ smbdomain=zzz if you know the domain. (Error NT_STATUS_ACCESS_DENIED)
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.221
+Host is up (0.055s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:41:22 (VMware)
+
+Nmap scan report for 192.168.43.222
+Host is up (0.052s latency).
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:6B:F6 (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: UNKNOWN; got error SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [14]
+|   SMBv2 DoS (CVE-2009-3103): VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.223
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:5C:EA (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).
+|   |  If you know the remote system is Windows, try rebooting it and scanning
+|   |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.224
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:45:9F (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).
+|   |  If you know the remote system is Windows, try rebooting it and scanning
+|   |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)
+|   regsvc DoS: VULNERABLE
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.225
+Host is up (0.053s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:21:59 (VMware)
+
+Nmap scan report for 192.168.43.226
+Host is up (0.053s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:19:BE (VMware)
+
+Nmap scan report for 192.168.43.227
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:46:7E (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   MS08-067: VULNERABLE
+|   Conficker: Likely CLEAN
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.229
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:00:25 (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   MS08-067: VULNERABLE
+|   Conficker: Likely CLEAN
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.230
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:34:6A (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: Likely CLEAN; access was denied.
+|   |  If you have a login, try using --script-args=smbuser=xxx,smbpass=yyy
+|   |  (replace xxx and yyy with your username and password). Also try
+|   |_ smbdomain=zzz if you know the domain. (Error NT_STATUS_ACCESS_DENIED)
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.231
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:4D:4A (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   MS08-067: VULNERABLE
+|   Conficker: Likely CLEAN
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.234
+Host is up (0.053s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:4B:2A (VMware)
+
+Nmap scan report for 192.168.43.235
+Host is up (0.053s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:75:18 (VMware)
+
+Nmap scan report for 192.168.43.236
+Host is up (0.054s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:71:9B (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).
+|   |  If you know the remote system is Windows, try rebooting it and scanning
+|   |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)
+|   regsvc DoS: VULNERABLE
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.237
+Host is up (0.054s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:11:51 (VMware)
+
+Nmap scan report for 192.168.43.238
+Host is up (0.053s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:62:7C (VMware)
+
+Nmap scan report for 192.168.43.239
+Host is up (0.054s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:60:4D (VMware)
+
+Nmap scan report for 192.168.43.241
+Host is up (0.064s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:56:B4 (VMware)
+
+Nmap scan report for 192.168.43.242
+Host is up (0.054s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:66:B7 (VMware)
+
+Nmap scan report for 192.168.43.244
+Host is up (0.054s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:20:E6 (VMware)
+
+Nmap scan report for 192.168.43.245
+Host is up (0.053s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:AF:38:2C (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: UNKNOWN; not Windows, or Windows with disabled browser service (CLEAN); or Windows with crashed browser service (possibly INFECTED).
+|   |  If you know the remote system is Windows, try rebooting it and scanning
+|   |_ again. (Error NT_STATUS_OBJECT_NAME_NOT_FOUND)
+|   SMBv2 DoS (CVE-2009-3103): NOT VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.247
+Host is up (0.053s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:44:41 (VMware)
+
+Nmap scan report for 192.168.43.249
+Host is up (0.065s latency).
+PORT    STATE  SERVICE
+139/tcp closed netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:AF:16:9D (VMware)
+
+Nmap scan report for 192.168.43.250
+Host is up (0.060s latency).
+PORT    STATE    SERVICE
+139/tcp open     netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:57:03 (VMware)
+
+Host script results:
+| smb-check-vulns: 
+|   Conficker: UNKNOWN; got error No accounts left to try
+|   SMBv2 DoS (CVE-2009-3103): VULNERABLE
+|   MS06-025: NO SERVICE (the Ras RPC service is inactive)
+|_  MS07-029: NO SERVICE (the Dns Server RPC service is inactive)
+
+Nmap scan report for 192.168.43.251
+Host is up (0.053s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:3C:1E (VMware)
+
+Nmap scan report for 192.168.43.252
+Host is up (0.054s latency).
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:AF:24:6C (VMware)
+
+# Nmap done at Thu Oct  1 12:02:43 2015 -- 41 IP addresses (41 hosts up) scanned in 316.53 seconds
