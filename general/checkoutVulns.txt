@@ -1,0 +1,67 @@
+http-vuln-cve2010-0738.nse
+http-vuln-cve2010-2861.nse
+
+rmi-vuln-classloader.nse ***
+afp-path-vuln.nse mac dir trans. *****
+
+http-vuln-cve2012-1823.nse ***
+
+http-vuln-cve2013-0156.nse ***
+
+http-vuln-zimbra-lfi.nse **************
+
+http-iis-webdav-vuln.nse ************
+
+mysql-vuln-cve2012-2122.nse ****
+
+rdp-vuln-ms12-020 ****
+
+smtp-vuln-cve2011-1720.nse need domain name.
+
+smtp-vuln-cve2011-1764.nse *****
+
+smtp-vuln-cve2010-4344 check out later.
+
+samba-vuln-cve-2012-1182.nse double check is smb-vuln covers this.
+
+NON vuln
+
+nbtstat.nse
+nfs-mount.nsesmtp-vuln-cve2011-1764.nse
+http-methods.nse
+creds-summary.nse
+snmp-win32-shares.nse
+snmp-win32-users.nse
+
+
+http-rfi-spider.nse
+http-robots.txt.nse
+http-sql-injection.nse
+http-put.nse or http-methods.nse
+http-wordpress-enum.nse
+http-passwd.nse
+http-phpmyadmin-dir-traversal.nse
+http-fileupload-exploiter.nse
+http-form-brute.nse
+http-form-fuzzer.nse
+http-dlink-backdoor.nse
+http-default-accounts.nse
+http-auth-finder.nse
+http-auth.nse
+
+xmpp-info.nse
+
+ms-sql-info.nse
+my-sql-info.nse
+
+dns-zone-transfer.nse
+dns-recursion.nse
+dns-service-discovery.nse
+dns-srv-enum.nse
+dns-nsec3-enum.nse
+dns-nsec-enum.nse
+dns-fuzz.nse
+
+x11-access.nse
+smtp-openrelay.nse
+smb-psexec.nse

@@ -6,3 +6,9 @@ The nmap scripts scans started
 Thu Oct  1 11:49:57 EDT 2015
 The nmap scripts scans ended
 Thu Oct  1 12:08:50 EDT 2015
+The nmap-sP scans started
+Thu Oct  1 22:03:01 EDT 2015
+The nmap-sP scan ended
+Thu Oct  1 22:03:02 EDT 2015
+The nmap scripts scans started
+Thu Oct  1 22:03:02 EDT 2015
