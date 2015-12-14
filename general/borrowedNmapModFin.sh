@@ -1,6 +1,6 @@
 #!/bin/bash
 location='Lab_Vlan'
-subnet='192.168.43.200-254'
+subnet='192.168.31.200-254'
 ipList='results/ipList.txt'
 
 # Creates the output and the results directory if they need to be created
